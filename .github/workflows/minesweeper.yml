@@ -17,12 +17,8 @@ jobs:
             python-version: 3.7
     
         - name: Clone game state repo
-          uses: actions/checkout@master
-          with:
-            repository: raspiduino/minesweeper_readme # You won't be able to see this repo, but I can hehe. 
-                                                      # This repo is used to save the game state.
-          env:
-            token: ${{ secrets.GITHUB_TOKEN }}
+          run: |
+            git clone https://raspiduino:${{ secrets.GITHUB_TOKEN }}@github.com/raspiduino/minesweeper_readme
         
         # Install require libs
         - name: Install required libraries

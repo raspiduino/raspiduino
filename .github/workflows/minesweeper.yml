@@ -21,7 +21,7 @@ jobs:
           with:
             repository: raspiduino/minesweeper_readme # You won't be able to see this repo, but I can hehe. 
                                                       # This repo is used to save the game state.
-            token: ${{ secrets.my_pat }}
+            token: ${{ secrets.GITHUB_TOKEN }}
         
         # Install require libs
         - name: Install required libraries

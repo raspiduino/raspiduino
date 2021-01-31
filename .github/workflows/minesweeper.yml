@@ -1,1 +1,9 @@
 
+name: "Minesweeper"
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  click:

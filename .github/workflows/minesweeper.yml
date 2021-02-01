@@ -16,8 +16,9 @@ jobs:
           with:
             python-version: 3.7
     
-        - name: Clone game state repo
+        - name: Clone repos
           run: |
+            git clone https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/raspiduino
             git clone https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/minesweeper_readme
         
         # Install require libs
@@ -25,16 +26,18 @@ jobs:
           run: |
             pip3 install PyGithub
     
-        - name: Read the game state
+        - name: Run Python script
         # Time for Python codee
           run: |
+            cd raspiduino
             MYACCESSTOKEN=${{ secrets.MY_ACCESS_TOKEN }} python3 minesweeper.py
         
         - name: Push the data back to the repo
           run : |
-              cd minesweeper_readme
-              git add .
-              git commit -m "Update data"
-              git remote set-url origin https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/minesweeper_readme
-              git push -f origin main
+            cd ..
+            cd minesweeper_readme
+            git add .
+            git commit -m "Update data"
+            git remote set-url origin https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/minesweeper_readme
+            git push -f origin main
               

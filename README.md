@@ -13,7 +13,7 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 5 |   |   |   |   |   |   |   |   |
 | 6 |   |   |   |   |   |   |   |   |
 | 7 |   |   |   |   |   |   |   |   |
-
+|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
 ### Last play
 | Click /Flag | Who? |
 | ----------- | ---- |
@@ -46,3 +46,4 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 |             |      |
 |             |      |
 |             |      |
+

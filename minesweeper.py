@@ -184,7 +184,7 @@ def re_generate():
     gamestatefile.write(gamedata[10]+"\n"+gamedata[11])
     gamestatefile.close()
     
-if gamedata[8] == True:
+if gamedata[8] == "True":
     # Use once and ONLY when this game first start.
     re_generate()
 

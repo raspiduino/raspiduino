@@ -34,8 +34,10 @@ jobs:
         - name: Push the data back to the repo
           run : |
             cd minesweeper_readme
+            git remote set-url origin https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/minesweeper_readme
+            git config --global user.email "raspiduinogit@gmail.com"
+            git config --global user.name "Raspiduino"
             git add .
             git commit -m "Update data"
-            git remote set-url origin https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/minesweeper_readme
             git push -f origin main
               

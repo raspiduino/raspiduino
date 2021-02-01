@@ -79,7 +79,7 @@ def displaygametable(gametable, x, y, usegametable=True, img=None):
 
     data = "|![](" + orglink + imglink + ".png)|"
 
-    readmefile = open("minesweeper/README.md", "w")
+    readmefile = open("raspiduino/README.md", "w")
     for line in readme[:8+x]:
         readmefile.write(line + "\n")
 

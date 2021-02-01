@@ -1,7 +1,5 @@
 '''
-Github Profile Readme's minesweeper game
-Copyright @raspiduino 2021
-Date created 30/1/2021
+My little Python script for minesweeper
 '''
 
 import random
@@ -41,6 +39,53 @@ The reason why it isn't shown here because it has all the information about wher
 no it and then...cheating. What about me? Well... :D
 '''
 
+# Read the 'Readme' file
+
+readmefile = open("minesweeper/README.md", "r")
+readme = readmefile.read()
+readmefile.close()
+
+readme = readme.split('\n')
+
+def displaygametable(gametable, x, y, usegametable=True, img=None):
+    displayline = readme[8+x].split("|")
+
+    before = displayline[:2+y]
+    after = displayline[3+y:]
+    
+    orglink = "https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/"
+    imglink = ""
+
+    if usegametable == True:
+        cell = gametable[x][y]
+
+        if "P" in cell:
+            # Flag!
+            imglink = "flagged"
+
+        elif cell == "o":
+            # Mine!
+            imglink = "bomb"
+
+        else:
+            # Any other cell type
+            imglink = cell
+
+    else:
+        # Manually
+        imglink = img
+
+    data = "|![](" + orglink + imglink + ".png)|"
+
+    readmefile = open("minesweeper/README.md", "w")
+    for line in readme[:8+x]:
+        readmefile.write(line + "\n")
+
+    readmefile.write("|".join(before) + data + "|".join(after) + "\n")
+
+    for line in readme[9+x:]:
+        readmefile.write(line + "\n")
+
 def re_generate():
     # Re-generate the game
     print("Re-generating the game table...")
@@ -56,7 +101,7 @@ def re_generate():
     # Create mines: 10 mines
     print("Creating mines...")
     for i in range(10):
-        mineloc = random.randint(0,63)
+        mineloc = random.randint(0,64)
         while gametable[mineloc//8][mineloc%8] == "o":
             # If has a mine on that place -> Re-random a new place
             mineloc = random.randint(0,64)
@@ -185,12 +230,33 @@ def re_generate():
     gamestatefile.write("False\n")
     gamestatefile.write(gamedata[10]+"\n"+gamedata[11])
     gamestatefile.close()
+
+    # Create blank board
+
+    for x in range(8):
+        for y in range(8):
+            displaygametable(gametable, x, y, "facingDown")
     
 if gamedata[8] == "True":
     # Use once and ONLY when this game first start.
     re_generate()
 
 else:
+    # Convert the gamedata.txt content to a game table
+    gametable = []
+    i = 0
+
+    for x in gamedata[:8]:
+        gametable.append([])
+        for y in x[1:-1].split(', '):
+            if "'" in y:
+                gametable[i].append(y[1:-1])
+            else:
+                gametable[i].append(y)
+        i += 1
+
+    #print(gametable)
+
     # Pick one issue =) (one request)
     g = Github(myaccesstoken) # Login using token
     repo = g.get_repo("raspiduino/raspiduino")
@@ -205,7 +271,9 @@ else:
             # - Click to bomb cell       -> You die -> Reset game
 
             alpha = ['a','b','c','d','e','f','g','h']
-            if gametable[int(request_title[2][0])][alpha.index(request_title[2][1])] == "x":
+            #print(int(request_title[2][0]))
+            #print(alpha.index(request_title[2][1]))
+            if gametable[int(request_title[2][0])][alpha.index(request_title[2][1])] == "o":
                 print("You dead!")
                 repo.get_issues(state='open')[0].edit(state='closed') # Close that issue
                 # Write to gamedata.txt
@@ -224,7 +292,7 @@ else:
 
             else:
                 # Any other number -> Display that number
-                pass
+                displaygametable(gametable, int(request_title[2][0]), alpha.index(request_title[2][1]))         
         
         elif request_title[1] == "flag":
             # Flag a cell

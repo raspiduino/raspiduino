@@ -18,7 +18,7 @@ jobs:
     
         - name: Clone game state repo
           run: |
-            git clone https://raspiduino:${{ secrets.GITHUB_TOKEN }}@github.com/raspiduino/minesweeper_readme
+            git clone https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/minesweeper_readme
         
         # Install require libs
         - name: Install required libraries
@@ -177,7 +177,7 @@ jobs:
             
             else:
                 # Pick one issue =) (one request)
-                g = Github("${{ secrets.GITHUB_TOKEN }}") # Login using token
+                g = Github("${{ secrets.MY_ACCESS_TOKEN }}") # Login using token
                 repo = g.get_repo("raspiduino/raspiduino")
                 try:
                     request_title = repo.get_issues(state='open')[0].title # Pick one of the request and get its title

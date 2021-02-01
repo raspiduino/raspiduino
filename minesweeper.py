@@ -50,6 +50,7 @@ readmefile.close()
 readme = readme.split('\n')
 
 def displaygametable(gametable, x, y, usegametable=True, img=None):
+    global readme
     displayline = readme[8+x].split("|")
 
     before = displayline[:2+y]
@@ -87,6 +88,13 @@ def displaygametable(gametable, x, y, usegametable=True, img=None):
 
     for line in readme[9+x:]:
         readmefile.write(line + "\n")
+
+    # Re update the readme content
+    readmefile = open("raspiduino/README.md", "r")
+    readme = readmefile.read()
+    readmefile.close()
+
+    readme = readme.split('\n')
 
 def re_generate():
     # Re-generate the game
@@ -177,9 +185,9 @@ def re_generate():
                     elif y == 0:
                         if gametable[0][1]     == "o":
                             numberofmines += 1
-                        if gametable[1][0]   == "o":
+                        if gametable[1][0]     == "o":
                             numberofmines += 1
-                        if gametable[1][1]   == "o":
+                        if gametable[1][1]     == "o":
                             numberofmines += 1
 
                     elif y == 7:
@@ -203,7 +211,7 @@ def re_generate():
                         if gametable[7][y+1]   == "o":
                             numberofmines += 1
 
-                    if y == 0:
+                    elif y == 0:
                         if gametable[6][0]     == "o":
                             numberofmines += 1
                         if gametable[6][1]     == "o":
@@ -211,7 +219,7 @@ def re_generate():
                         if gametable[7][1]     == "o":
                             numberofmines += 1
 
-                    if y == 7:
+                    elif y == 7:
                         if gametable[6][6]     == "o":
                             numberofmines += 1
                         if gametable[6][7]     == "o":

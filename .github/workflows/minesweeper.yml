@@ -31,7 +31,7 @@ jobs:
           run: |
             MYACCESSTOKEN=${{ secrets.MY_ACCESS_TOKEN }} python3 raspiduino/minesweeper.py
         
-        - name: Push the data back to the repo
+        - name: Push the data back to the gamedata repo
           run : |
             cd minesweeper_readme
             git remote set-url origin https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/minesweeper_readme
@@ -41,3 +41,13 @@ jobs:
             git commit -m "Update data"
             git push -f origin main
               
+        - name: Push the data back to the main repo
+          run : |
+            cd ..
+            cd raspiduino
+            git remote set-url origin https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/raspiduino
+            git config --global user.email "raspiduinogit@gmail.com"
+            git config --global user.name "Raspiduino"
+            git add .
+            git commit -m "Update the minesweeper game"
+            git push -f origin main

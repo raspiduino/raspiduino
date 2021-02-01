@@ -43,7 +43,6 @@ jobs:
               
         - name: Push the data back to the main repo
           run : |
-            cd ..
             cd raspiduino
             git remote set-url origin https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/raspiduino
             git config --global user.email "raspiduinogit@gmail.com"

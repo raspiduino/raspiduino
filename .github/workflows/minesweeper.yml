@@ -99,63 +99,103 @@ jobs:
                                 # Check (x - 1) row
                                 if y > 0 and y < 7:
                                     # Check (x - 1) row (y - 1 coloumn)
-                                    if gametable[x-1][y-1] == "o" numberofmines += 1
-                                    if gametable[x-1][y]   == "o" numberofmines += 1
-                                    if gametable[x-1][y+1] == "o" numberofmines += 1
-                                    if gametable[x][y-1]   == "o" numberofmines += 1
-                                    if gametable[x][y+1]   == "o" numberofmines += 1
-                                    if gametable[x+1][y-1] == "o" numberofmines += 1
-                                    if gametable[x+1][y]   == "o" numberofmines += 1
-                                    if gametable[x+1][y+1] == "o" numberofmines += 1
+                                    if gametable[x-1][y-1] == "o":
+                                        numberofmines += 1
+                                    if gametable[x-1][y]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x-1][y+1] == "o":
+                                        numberofmines += 1
+                                    if gametable[x][y-1]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x][y+1]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x+1][y-1] == "o":
+                                        numberofmines += 1
+                                    if gametable[x+1][y]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x+1][y+1] == "o":
+                                        numberofmines += 1
                                     
                                 elif y == 0:
-                                    if gametable[x-1][0]   == "o" numberofmines += 1
-                                    if gametable[x-1][1]   == "o" numberofmines += 1
-                                    if gametable[x][1]     == "o" numberofmines += 1
-                                    if gametable[x+1][0]   == "o" numberofmines += 1
-                                    if gametable[x+1][1]   == "o" numberofmines += 1
+                                    if gametable[x-1][0]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x-1][1]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x][1]     == "o":
+                                        numberofmines += 1
+                                    if gametable[x+1][0]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x+1][1]   == "o":
+                                        numberofmines += 1
                                     
                                 elif y == 7:
-                                    if gametable[x-1][6]   == "o" numberofmines += 1
-                                    if gametable[x-1][7]   == "o" numberofmines += 1
-                                    if gametable[x][6]     == "o" numberofmines += 1
-                                    if gametable[x+1][6]   == "o" numberofmines += 1
-                                    if gametable[x+1][7]   == "o" numberofmines += 1
+                                    if gametable[x-1][6]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x-1][7]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x][6]     == "o":
+                                        numberofmines += 1
+                                    if gametable[x+1][6]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x+1][7]   == "o":
+                                        numberofmines += 1
                             
                             if x == 0:
                                 if y > 0 and y < 7:
-                                    if gametable[0][y-1]   == "o" numberofmines += 1
-                                    if gametable[0][y+1]   == "o" numberofmines += 1
-                                    if gametable[1][y-1]   == "o" numberofmines += 1
-                                    if gametable[1][y]     == "o" numberofmines += 1
-                                    if gametable[1][y+1]   == "o" numberofmines += 1
+                                    if gametable[0][y-1]   == "o":
+                                        numberofmines += 1
+                                    if gametable[0][y+1]   == "o":
+                                        numberofmines += 1
+                                    if gametable[1][y-1]   == "o":
+                                        numberofmines += 1
+                                    if gametable[1][y]     == "o":
+                                        numberofmines += 1
+                                    if gametable[1][y+1]   == "o":
+                                        numberofmines += 1
                                 elif y == 0:
-                                    if gametable[x][1]     == "o" numberofmines += 1
-                                    if gametable[x+1][0]   == "o" numberofmines += 1
-                                    if gametable[x+1][1]   == "o" numberofmines += 1
+                                    if gametable[x][1]     == "o":
+                                        numberofmines += 1
+                                    if gametable[x+1][0]   == "o":
+                                        numberofmines += 1
+                                    if gametable[x+1][1]   == "o":
+                                        numberofmines += 1
                                     
                                 elif y == 7:
-                                    if gametable[0][6]     == "o" numberofmines += 1
-                                    if gametable[1][6]     == "o" numberofmines += 1
-                                    if gametable[1][7]     == "o" numberofmines += 1
+                                    if gametable[0][6]     == "o":
+                                        numberofmines += 1
+                                    if gametable[1][6]     == "o":
+                                        numberofmines += 1
+                                    if gametable[1][7]     == "o":
+                                        numberofmines += 1
                             
                             if x == 7:
                                 if y > 0 and y < 7:
-                                    if gametable[6][y-1]   == "o" numberofmines += 1
-                                    if gametable[6][y]     == "o" numberofmines += 1
-                                    if gametable[6][y+1]   == "o" numberofmines += 1
-                                    if gametable[7][y-1]   == "o" numberofmines += 1
-                                    if gametable[7][y+1]   == "o" numberofmines += 1
+                                    if gametable[6][y-1]   == "o":
+                                        numberofmines += 1
+                                    if gametable[6][y]     == "o":
+                                        numberofmines += 1
+                                    if gametable[6][y+1]   == "o":
+                                        numberofmines += 1
+                                    if gametable[7][y-1]   == "o":
+                                        numberofmines += 1
+                                    if gametable[7][y+1]   == "o":
+                                        numberofmines += 1
                                     
                                 if y == 0:
-                                    if gametable[6][0]     == "o" numberofmines += 1
-                                    if gametable[6][1]     == "o" numberofmines += 1
-                                    if gametable[7][1]     == "o" numberofmines += 1
+                                    if gametable[6][0]     == "o":
+                                        numberofmines += 1
+                                    if gametable[6][1]     == "o":
+                                        numberofmines += 1
+                                    if gametable[7][1]     == "o":
+                                        numberofmines += 1
                                     
                                 if y == 7:
-                                    if gametable[6][6]     == "o" numberofmines += 1
-                                    if gametable[6][7]     == "o" numberofmines += 1
-                                    if gametable[7][6]     == "o" numberofmines += 1
+                                    if gametable[6][6]     == "o":
+                                        numberofmines += 1
+                                    if gametable[6][7]     == "o":
+                                        numberofmines += 1
+                                    if gametable[7][6]     == "o":
+                                        numberofmines += 1
                             
                             gametable[x][y] = numberofmines # Set number of mines to that cell
                 print("Scan completed!")
@@ -210,7 +250,19 @@ jobs:
                         
                         else:
                             # Any other number -> Display that number
+                            pass
                     
                     elif request_title[1] == "flag":
                         # Flag a cell
-                        
+                        pass
+            
+            MYPYTHONSCRIPT
+        
+        - name: Push the data back to the repo
+          run : |
+              cd minesweeper_readme
+              git add .
+              git commit -m "Update data"
+              git remote set-url origin https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/minesweeper_readme
+              git push -f origin main
+              

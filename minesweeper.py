@@ -1,5 +1,7 @@
 '''
-My little Python script for minesweeper
+Github profile's Readme minesweeper game
+Copyright @raspiduino 2021
+Date created 30/1/2021
 '''
 
 import random

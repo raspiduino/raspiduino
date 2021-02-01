@@ -18,6 +18,11 @@ gamestatefile.close()
 
 gamedata = gamedata.split("\n") # Split lines
 
+# Read the action file
+gameactionfile = open("minesweeper_readme/action.txt", "r")
+gameaction = gameactionfile.read()
+gameactionfile.close()
+
 '''
 Some thing to note about the gamedata.txt format (note to myself :D):
 o: mine
@@ -107,6 +112,13 @@ def re_generate():
         gametable.append([]) # Add new row
         for y in range(8):
             gametable[x].append(0) # Add new coloumn
+
+    # Write to game action file
+
+    gameactionfile = open("minesweeper_readme/action.txt", "w")
+    for line in gametable:
+        gameactionfile.write(str(line)+"\n")
+    gameactionfile.close()
     
     # Create mines: 10 mines
     print("Creating mines...")
@@ -265,6 +277,25 @@ else:
                 gametable[i].append(y)
         i += 1
 
+    # Convert the gameaction.txt content to a game action table
+    gameactiontable = []
+    i = 0
+
+    gameactionfile = open("minesweeper_readme/action.txt", "r")
+    gameaction = gameactionfile.read()
+    gameactionfile.close()
+
+    gameaction = gameaction.split('\n')
+
+    for x in gameaction[]:
+        gameactiontable.append([])
+        for y in x[1:-1].split(', '):
+            if "'" in y:
+                gametable[i].append(y[1:-1])
+            else:
+                gametable[i].append(y)
+        i += 1
+
     #print(gametable)
 
     # Pick one issue =) (one request)
@@ -286,23 +317,39 @@ else:
             if gametable[int(request_title[2][0])][alpha.index(request_title[2][1])] == "o":
                 print("You dead!")
                 repo.get_issues(state='open')[0].edit(state='closed') # Close that issue
+
+
                 # Write to gamedata.txt
                 gamestatefile = open("minesweeper_readme/gamedata.txt", "w")
                 # Write table
                 for line in gametable:
                     gamestatefile.write(str(line)+"\n")
-                # Begin the game
+                
                 gamestatefile.write("False\n")
                 gamestatefile.write("True\n")
                 gamestatefile.write(gamedata[10]+"\n"+gamedata[11])
                 gamestatefile.close()
+
+                # Show the full game table
+                for x in range(8):
+                    for y in range(8)
+                        displaygametable(gametable, x, y)
 
             elif gametable[int(request_title[2][0])][alpha.index(request_title[2][1])] == "0":
                 pass # Work on this later
 
             else:
                 # Any other number -> Display that number
-                displaygametable(gametable, int(request_title[2][0]), alpha.index(request_title[2][1]))         
+                displaygametable(gametable, int(request_title[2][0]), alpha.index(request_title[2][1]))
+                repo.get_issues(state='open')[0].edit(state='closed') # Close that issue
+                gameactiontable[int(request_title[2][0])][alpha.index(request_title[2][1])] = "X"
+
+                # Write to gameaction.txt
+                gameactionfile = open("minesweeper_readme/action.txt", "w")
+                # Write table
+                for line in gameactiontable:
+                    gameactionfile.write(str(line)+"\n")
+                gameactionfile.close()
         
         elif request_title[1] == "flag":
             # Flag a cell

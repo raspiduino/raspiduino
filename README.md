@@ -1,16 +1,48 @@
-### Hi there 👋
+# Hi there 👋
 
-<!--
-**raspiduino/raspiduino** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Minesweeper game 💣💣!
+If you came here, why don't you play some minesweeper? The game is open for everyone!
 
-Here are some ideas to get you started:
+|   | A | B | C | D | E | F | G | H |
+| - | - | - | - | - | - | - | - | - |
+| 0 |   |   |   |   |   |   |   |   |
+| 1 |   |   |   |   |   |   |   |   |
+| 2 |   |   |   |   |   |   |   |   |
+| 3 |   |   |   |   |   |   |   |   |
+| 4 |   |   |   |   |   |   |   |   |
+| 5 |   |   |   |   |   |   |   |   |
+| 6 |   |   |   |   |   |   |   |   |
+| 7 |   |   |   |   |   |   |   |   |
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Last play
+| Click /Flag | Who? |
+| ----------- | ---- |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+
+### Top 20 leaderboard: Who has most move?
+| Moves count | Who? |
+| ----------- | ---- |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |
+|             |      |

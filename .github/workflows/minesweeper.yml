@@ -233,7 +233,6 @@ jobs:
                         if gametable[int(request_title[2][0])][alpha.index(request_title[2][1])] == "x":
                             print("You dead!")
                             repo.get_issues(state='open')[0].edit(state='closed') # Close that issue
-                            
                             # Write to gamedata.txt
                             gamestatefile = open("minesweeper_readme/gamedata.txt", "w")
                             # Write table

@@ -29,12 +29,10 @@ jobs:
         - name: Run Python script
         # Time for Python codee
           run: |
-            cd raspiduino
-            MYACCESSTOKEN=${{ secrets.MY_ACCESS_TOKEN }} python3 minesweeper.py
+            MYACCESSTOKEN=${{ secrets.MY_ACCESS_TOKEN }} python3 raspiduino/minesweeper.py
         
         - name: Push the data back to the repo
           run : |
-            cd ..
             cd minesweeper_readme
             git add .
             git commit -m "Update data"

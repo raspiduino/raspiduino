@@ -41,7 +41,7 @@ no it and then...cheating. What about me? Well... :D
 
 # Read the 'Readme' file
 
-readmefile = open("minesweeper/README.md", "r")
+readmefile = open("raspiduino/README.md", "r")
 readme = readmefile.read()
 readmefile.close()
 

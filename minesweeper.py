@@ -210,7 +210,7 @@ else:
                 gamestatefile = open("minesweeper_readme/gamedata.txt", "w")
                 # Write table
                 for line in gametable:
-                gamestatefile.write(str(line)+"\n")
+                    gamestatefile.write(str(line)+"\n")
                 # Begin the game
                 gamestatefile.write("False\n")
                 gamestatefile.write("True\n")

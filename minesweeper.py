@@ -54,7 +54,7 @@ def re_generate():
     # Create mines: 10 mines
     print("Creating mines...")
     for i in range(10):
-        mineloc = random.randint(0,64)
+        mineloc = random.randint(0,63)
         while gametable[mineloc//8][mineloc%8] == "o":
             # If has a mine on that place -> Re-random a new place
             mineloc = random.randint(0,64)

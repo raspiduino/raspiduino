@@ -237,7 +237,7 @@ def re_generate():
 
     for x in range(8):
         for y in range(8):
-            displaygametable(gametable, x, y, "facingDown")
+            displaygametable(gametable, x, y, False, "facingDown")
     
 if gamedata[8] == "True":
     # Use once and ONLY when this game first start.

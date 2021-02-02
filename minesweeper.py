@@ -166,7 +166,7 @@ def lastplay(currentissue, action, x, y):
     readmefile.write('\n'.join(readme))
     readmefile.close()
 
-    gamestatefile = open("raspiduino/gamedata.txt", "w")
+    gamestatefile = open("minesweeper_readme/gamedata.txt", "w")
     gamestatefile.write('\n'.join(gamedata))
     gamestatefile.close()
 

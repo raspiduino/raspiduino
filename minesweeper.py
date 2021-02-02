@@ -117,11 +117,7 @@ def checkifwon(gametable, gameactiontable):
     gameaction = gameactionfile.read()
     gameactionfile.close()
 
-    totalflag = 0
-    for x in gameactiontable:
-         totalflag += x.count("P")
-
-    if (not "0" in gameaction) and totalflag == 10:
+    if not "0" in gameaction:
         # You win!
         print("You win!")
 
@@ -140,6 +136,38 @@ def checkifwon(gametable, gameactiontable):
         readmefile = open("raspiduino/README.md", "w")
         readmefile.write('\n'.join(readme))
         readmefile.close()
+
+def lastplay(currentissue, action, x, y):
+    gamestatefile = open("raspiduino/gamedata.txt", "r")
+    gamedata = gamestatefile.read().split("\n")
+    gamestatefile.close()
+
+    readmefile = open("raspiduino/README.md", "r")
+    readme = readmefile.read().split("\n")
+    readmefile.close()
+
+    lastplayboard = gamedata[10][1:-1].split(",")
+    lastplayboard.append(currentissue.user.name + "|" + currentissue.user.html_url + "|" + action + "|" + str(x) + "|" + alpha[y])
+
+    if len(lastplayboard) == 6:
+        lastplayboard.pop(0) # Remove one
+
+    gamedata[10] = str(lastplayboard)    
+
+    # Display the board
+    i = 0
+
+    for item in lastplayboard:
+        readme[22 + i] = "| " + action + " " + str(x) + alpha[y] + " | <a href='" + currentissue.user.html_url + "'>" + currentissue.user.name + "</a>"
+
+    # Save things back
+    readmefile = open("raspiduino/README.md", "w")
+    readmefile.write('\n'.join(readme))
+    readmefile.close()
+
+    gamestatefile = open("raspiduino/gamedata.txt", "w")
+    gamestatefile.write('\n'.join(gamedata))
+    gamestatefile.close()
 
 def re_generate():
     # Re-generate the game
@@ -396,37 +424,35 @@ else:
                 readmefile.write('\n'.join(readme))
                 readmefile.close()
 
-                #displaylastplaytable(currentissue)
-
             else:
                 # Any other number -> Display that number
                 displaygametable(gametable, cellx, celly, gameactiontable=gameactiontable)
                 currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
                 currentissue.edit(state='closed') # Close that issue
                 gameactiontable[cellx][celly] = "X"
-                #displaylastplaytable(currentissue)
                 writegameactiontable(gameactiontable)
                 checkifwon(gametable, gameactiontable)
-        
+            
+            lastplay(currentissue, "Click", cellx, celly)
+
         elif request_title[1] == "flag":
             # Flag a cell
             cellx = int(request_title[2][0])
             celly = alpha.index(request_title[2][1])
             if gameactiontable[cellx][celly] == "P":
                 # Remove flag if existed
-                gameactiontable[cellx][celly] = 0
-                # Chang the icon back
-                displaygametable(gametable, cellx, celly, False, 'facingDown')
-            
+                gameactiontable[cellx][celly] = gameactiontable[cellx][celly][:1]
+
             else:
                 # Add a flag
                 gameactiontable[cellx][celly] = "P"
-                displaygametable(gametable, cellx, celly, False, 'flagged')
+            displaygametable(gametable, cellx, celly, False, 'flagged')
             currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
             currentissue.edit(state='closed') # Close that issue
             #displaylastplaytable(currentissue)
             writegameactiontable(gameactiontable)
             checkifwon(gametable, gameactiontable)
+            lastplay(currentissue, "Flag", cellx, celly)
 
         elif request_title[1] == "playagain":
             re_generate()

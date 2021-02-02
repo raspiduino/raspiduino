@@ -158,7 +158,8 @@ def lastplay(currentissue, action, x, y):
     i = 0
 
     for item in lastplayboard:
-        readme[22 + i] = "| " + action + " " + str(x) + alpha[y] + " | <a href='" + currentissue.user.html_url + "'>" + currentissue.user.name + "</a>"
+        iteminfo = item.split('|')
+        readme[22 + i] = "| " + iteminfo[2] + " " + iteminfo[3] + iteminfo[4] + " | <a href='" + iteminfo[1] + "'>" + iteminfo[0] + "</a>"
         i += 1
 
     # Save things back

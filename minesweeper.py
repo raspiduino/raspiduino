@@ -157,7 +157,7 @@ def lastplay(currentissue, action, x, y):
     # Display the board
     i = 0
 
-    for item in lastplayboard:
+    for item in lastplayboard[::-1]:
         iteminfo = item.split('|')
         readme[22 + i] = "| " + iteminfo[2] + " " + iteminfo[3] + iteminfo[4] + " | <a href='" + iteminfo[1] + "'>" + iteminfo[0] + "</a>"
         i += 1

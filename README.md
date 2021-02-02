@@ -20,7 +20,7 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
-|        |      |
+| Click 2b | <a href='https://github.com/raspiduino'>@raspiduino</a>
 |        |      |
 |        |      |
 |        |      |
@@ -60,6 +60,7 @@ When you open an issue, this will trigger the github action to run the Python sc
 
 ## Issue? Questions?
 Open an issue and assign to me! Any ideas are welcome! ☺
+
 
 
 

@@ -138,7 +138,7 @@ def checkifwon(gametable, gameactiontable):
         readmefile.close()
 
 def lastplay(currentissue, action, x, y):
-    gamestatefile = open("raspiduino/gamedata.txt", "r")
+    gamestatefile = open("minesweeper_readme/gamedata.txt", "r")
     gamedata = gamestatefile.read().split("\n")
     gamestatefile.close()
 

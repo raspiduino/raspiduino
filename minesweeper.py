@@ -139,6 +139,47 @@ def checkifwon(gametable, gameactiontable):
         readmefile.write('\n'.join(readme))
         readmefile.close()
 
+def leaderboard():
+    gamestatefile = open("minesweeper_readme/gamedata.txt", "r")
+    gamedata = gamestatefile.read().split("\n")
+    gamestatefile.close()
+
+    readmefile = open("raspiduino/README.md", "r")
+    readme = readmefile.read()
+    readmefile.close()
+
+    leaderboardlist = gamedata[11].split(',')
+
+    newplayer = gamedata[10].split(',')[0].split('|')
+    
+    userexisted = False
+
+    for i in leaderboardlist:
+        if newplayer[0] in i:
+            userexisted = True
+            userindex = leaderboardlist.index(i)
+            break
+
+    if userexisted:
+        leaderboardlist[userindex] = newplayer[0] + '|' + newplayer[1] + '|' + str(int(leaderboardlist[userindex].split('|')[2]) + 1)
+
+    else:
+        leaderboardlist.append(newplayer[0] + '|' + newplayer[1] + '|1')
+
+    leaderboardlist.sort()
+
+    if len(leaderboardlist) > 20:
+        leaderboardlist.pop(0)
+
+    i = 29
+    for leaduser in leaderboardlist:
+        leadusercontent = leaduser.split('|')
+        readme[i] = "| " + leadusercontent[2] + " | <a href='" + leadusercontent[1] + "'>" + leadusercontent[0] + "</a>" 
+    
+    readmefile = open("raspiduino/README.md", "w")
+    readmefile.write('\n'.join(readme))
+    readmefile.close()
+
 def lastplay(currentissue, action, x, y):
     gamestatefile = open("minesweeper_readme/gamedata.txt", "r")
     gamedata = gamestatefile.read().split("\n")

@@ -11,6 +11,8 @@ import os
 # Get the access token
 myaccesstoken = os.environ['MYACCESSTOKEN']
 
+alpha = ['a','b','c','d','e','f','g','h']
+
 # Read the game state file
 gamestatefile = open("minesweeper_readme/gamedata.txt", "r")
 gamedata = gamestatefile.read()
@@ -351,8 +353,7 @@ else:
             # - Click to 0 cell          -> Show all nearby 0 cell and other cell until have a number
             #       different than 0
             # - Click to bomb cell       -> You die -> Reset game
-
-            alpha = ['a','b','c','d','e','f','g','h']
+            
             #print(int(request_title[2][0]))
             #print(alpha.index(request_title[2][1]))
             cellx = int(request_title[2][0])

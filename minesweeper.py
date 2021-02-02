@@ -415,7 +415,7 @@ else:
             else:
                 # Add a flag
                 gameactiontable[cellx][celly] = gameactiontable[cellx][celly] + "P"
-            displaygametable(gametable, cellx, celly, gameactiontable=gameactiontable)
+            displaygametable(gametable, cellx, celly, False, "flagged")
             currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
             currentissue.edit(state='closed') # Close that issue
             #displaylastplaytable(currentissue)

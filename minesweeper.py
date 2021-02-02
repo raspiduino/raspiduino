@@ -166,13 +166,13 @@ def leaderboard():
 
     leaderboardlist.sort()
     
-    print(leaderboardlist)
+    #print(leaderboardlist)
 
     if len(leaderboardlist) > 20:
         leaderboardlist.pop(0)
 
     i = 31
-    for leaduser in leaderboardlist[::1]:
+    for leaduser in leaderboardlist:
         leadusercontent = leaduser.split('|')
         readme[i] = "| " + leadusercontent[0] + " | <a href='" + leadusercontent[2] + "'>" + leadusercontent[1] + "</a>|" 
     

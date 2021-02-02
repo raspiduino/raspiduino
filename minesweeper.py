@@ -213,7 +213,7 @@ def lastplay(currentissue, action, x, y):
     gamestatefile = open("minesweeper_readme/gamedata.txt", "w")
     gamestatefile.write('\n'.join(gamedata))
     gamestatefile.close()
-    
+
     leaderboard()
 
 def re_generate():
@@ -422,90 +422,85 @@ else:
     # Pick one issue =) (one request)
     g = Github(myaccesstoken) # Login using token
     repo = g.get_repo("raspiduino/raspiduino")
-    try:
-        currentissue = repo.get_issues(state='open')[0]
-        request_title = currentissue.title # Pick one of the request and get its title
-        request_title = request_title.split(":") # Split the request by ':'
-        if request_title[1] == "click":
-            # One of three things may happen:
-            # - Click to one normal cell -> Show its number
-            # - Click to 0 cell          -> Show all nearby 0 cell and other cell until have a number
-            #       different than 0
-            # - Click to bomb cell       -> You die -> Reset game
+    currentissue = repo.get_issues(state='open')[0]
+    request_title = currentissue.title # Pick one of the request and get its title
+    request_title = request_title.split(":") # Split the request by ':'
+    if request_title[1] == "click":
+        # One of three things may happen:
+        # - Click to one normal cell -> Show its number
+        # - Click to 0 cell          -> Show all nearby 0 cell and other cell until have a number
+        #       different than 0
+        # - Click to bomb cell       -> You die -> Reset game
 
-            #print(int(request_title[2][0]))
-            #print(alpha.index(request_title[2][1]))
-            cellx = int(request_title[2][0])
-            celly = alpha.index(request_title[2][1])
+        #print(int(request_title[2][0]))
+        #print(alpha.index(request_title[2][1]))
+        cellx = int(request_title[2][0])
+        celly = alpha.index(request_title[2][1])
 
-            if gametable[cellx][celly] == "o":
-                print("You dead!")
-                currentissue.create_comment("You dead, but don't worry, you can always play again!")
-                currentissue.edit(state='closed') # Close that issue
+        if gametable[cellx][celly] == "o":
+            print("You dead!")
+            currentissue.create_comment("You dead, but don't worry, you can always play again!")
+            currentissue.edit(state='closed') # Close that issue
 
+            # Write to gamedata.txt
+            gamestatefile = open("minesweeper_readme/gamedata.txt", "w")
+            # Write table
+            for line in gametable:
+                gamestatefile.write(str(line)+"\n")
+            
+            gamestatefile.write("False\n")
+            gamestatefile.write("True\n")
+            gamestatefile.write(gamedata[10]+"\n"+gamedata[11])
+            gamestatefile.close()
 
-                # Write to gamedata.txt
-                gamestatefile = open("minesweeper_readme/gamedata.txt", "w")
-                # Write table
-                for line in gametable:
-                    gamestatefile.write(str(line)+"\n")
-                
-                gamestatefile.write("False\n")
-                gamestatefile.write("True\n")
-                gamestatefile.write(gamedata[10]+"\n"+gamedata[11])
-                gamestatefile.close()
+            # Show the full game table
+            for x in range(8):
+                for y in range(8):
+                    displaygametable(gametable, x, y, gameactiontable=gameactiontable)
 
-                # Show the full game table
-                for x in range(8):
-                    for y in range(8):
-                        displaygametable(gametable, x, y, gameactiontable=gameactiontable)
+            readmefile = open("raspiduino/README.md", "r")
+            readme = readmefile.read()
+            readmefile.close()
 
-                readmefile = open("raspiduino/README.md", "r")
-                readme = readmefile.read()
-                readmefile.close()
+            readme = readme.split('\n')
+            readme[17] = "<br>You lost! Wanna to play again? Click <a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aplayagain&body=Just+push+%27Submit+new+issue%27+to+play+again.+You+don%27t+need+to+do+anything+else.'>here</a>"
 
-                readme = readme.split('\n')
-                readme[17] = "<br>You lost! Wanna to play again? Click <a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aplayagain&body=Just+push+%27Submit+new+issue%27+to+play+again.+You+don%27t+need+to+do+anything+else.'>here</a>"
+            readmefile = open("raspiduino/README.md", "w")
+            readmefile.write('\n'.join(readme))
+            readmefile.close()
+            lastplay(currentissue, "Click", cellx, celly)
 
-                readmefile = open("raspiduino/README.md", "w")
-                readmefile.write('\n'.join(readme))
-                readmefile.close()
-                lastplay(currentissue, "Click", cellx, celly)
-
-            else:
-                # Any other number -> Display that number
-                displaygametable(gametable, cellx, celly, gameactiontable=gameactiontable)
-                currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
-                currentissue.edit(state='closed') # Close that issue
-                lastplay(currentissue, "Click", cellx, celly)
-                gameactiontable[cellx][celly] = "X"
-                writegameactiontable(gameactiontable)
-                checkifwon(gametable, gameactiontable)
-
-        elif request_title[1] == "flag":
-            # Flag a cell
-            cellx = int(request_title[2][0])
-            celly = alpha.index(request_title[2][1])
-            if gameactiontable[cellx][celly] == "P":
-                # Remove flag if existed
-                gameactiontable[cellx][celly] = gameactiontable[cellx][celly][:1]
-
-            else:
-                # Add a flag
-                gameactiontable[cellx][celly] = "P"
-            displaygametable(gametable, cellx, celly, False, 'flagged')
+        else:
+            # Any other number -> Display that number
+            displaygametable(gametable, cellx, celly, gameactiontable=gameactiontable)
             currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
             currentissue.edit(state='closed') # Close that issue
-            #displaylastplaytable(currentissue)
+            lastplay(currentissue, "Click", cellx, celly)
+            gameactiontable[cellx][celly] = "X"
             writegameactiontable(gameactiontable)
             checkifwon(gametable, gameactiontable)
-            lastplay(currentissue, "Flag", cellx, celly)
 
-        elif request_title[1] == "playagain":
-            re_generate()
-            currentissue.create_comment("Ok! You can play again now at https://github.com/raspiduino")
-            currentissue.edit(state='closed') # Close that issue
+    elif request_title[1] == "flag":
+        # Flag a cell
+        cellx = int(request_title[2][0])
+        celly = alpha.index(request_title[2][1])
+        if gameactiontable[cellx][celly] == "P":
+            # Remove flag if existed
+            gameactiontable[cellx][celly] = gameactiontable[cellx][celly][:1]
 
-    except Exception as e:
-        print("Error!")
-        print(e)
+        else:
+            # Add a flag
+            gameactiontable[cellx][celly] = "P"
+        displaygametable(gametable, cellx, celly, False, 'flagged')
+        currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
+        currentissue.edit(state='closed') # Close that issue
+        #displaylastplaytable(currentissue)
+        writegameactiontable(gameactiontable)
+        checkifwon(gametable, gameactiontable)
+        lastplay(currentissue, "Flag", cellx, celly)
+
+    elif request_title[1] == "playagain":
+        re_generate()
+        currentissue.create_comment("Ok! You can play again now at https://github.com/raspiduino")
+        currentissue.edit(state='closed') # Close that issue
+

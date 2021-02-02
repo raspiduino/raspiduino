@@ -159,10 +159,10 @@ def leaderboard():
             break
 
     if userexisted:
-        leaderboardlist[userindex] = newplayer[0] + '|' + newplayer[1] + '|' + str(int(leaderboardlist[userindex].split('|')[2]) + 1)
+        leaderboardlist[userindex] = str(int(leaderboardlist[userindex].split('|')[0]) + 1) + '|' + newplayer[0] + '|' + newplayer[1]
 
     else:
-        leaderboardlist.append(newplayer[0] + '|' + newplayer[1] + '|1')
+        leaderboardlist.append('1|' + newplayer[0] + '|' + newplayer[1])
 
     leaderboardlist.sort()
 

@@ -26,21 +26,6 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | Click 4c | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Flag 1e | <a href='https://github.com/raspiduino'>@raspiduino</a>
 
-## Leaderboard
-| Count | Who? |
-| ----- | ---- |
-|   .   |  ..  |
-|   .   |  ..  |
-|   .   |  ..  |
-|   .   |  ..  |
-|   .   |  ..  |
-|   .   |  ..  |
-|   .   |  ..  |
-|   .   |  ..  |
-|   .   |  ..  |
-|   .   |  ..  |
-
-
 ## How to play?
 - If you want to click to a cell, open a issue with the title ```minesweeper:click:yourcelllocation```. For example: ```minesweeper:click:5a```
 - If you want to flag a cell as mine, open a issue with the title ```minesweeper:flag:yourcelllocation```. For example: ```minesweeper:flag:5a```
@@ -62,6 +47,6 @@ Open an issue and assign to me! Any ideas are welcome! ☺
 
 # About me
 - 😀 I'm 14 years old.
-- 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python
+- 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python and build houses will soil and Uno card 🤣
 - 📧 How to reach me: my email ```raspiduinogit@gmail.com```
 - 🔭 I'm currently working on some stupid project, like Loading Arduino Hex from SD card, running Linux on Arduino Uno (this actually have been done by Dmitry <a href="http://dmitry.gr/?r=05.Projects&proj=07.%20Linux%20on%208bit">here</a>), creating my own OS?!

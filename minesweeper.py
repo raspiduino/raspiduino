@@ -29,7 +29,6 @@ gameactionfile.close()
 Some thing to note about the gamedata.txt format (note to myself :D):
 o: mine
 P: Flag
-
 You don't need to care about this, gamedata.txt is just something like (if you want to know):
 [0,0,0,0,0,0,0,0]
 [0,0,0,0,0,0,0,0]
@@ -43,7 +42,6 @@ True
 False
 []
 []
-
 The reason why it isn't shown here because it has all the information about where is mines, so you will
 no it and then...cheating. What about me? Well... :D
 '''
@@ -167,6 +165,8 @@ def leaderboard():
         leaderboardlist.append(newplayer[0] + '|' + newplayer[1] + '|1')
 
     leaderboardlist.sort()
+    
+    print(leaderboardlist)
 
     if len(leaderboardlist) > 20:
         leaderboardlist.pop(0)
@@ -174,7 +174,7 @@ def leaderboard():
     i = 31
     for leaduser in leaderboardlist[::-1]:
         leadusercontent = leaduser.split('|')
-        readme[i] = "| " + leadusercontent[2] + " | <a href='" + leadusercontent[1] + "'>" + leadusercontent[0] + "</a>" 
+        readme[i] = "| " + leadusercontent[2] + " | <a href='" + leadusercontent[1] + "'>" + leadusercontent[0] + "</a>|" 
     
     readmefile = open("raspiduino/README.md", "w")
     readmefile.write('\n'.join(readme))
@@ -503,4 +503,3 @@ else:
         re_generate()
         currentissue.create_comment("Ok! You can play again now at https://github.com/raspiduino")
         currentissue.edit(state='closed') # Close that issue
-

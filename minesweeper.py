@@ -86,7 +86,9 @@ def displaygametable(gametable, x, y, usegametable=True, img=None, gameactiontab
         # Manually
         imglink = img
 
-    data = "|![](" + orglink + imglink + ".png)|"
+    orgissuelink = "https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3A{}%3A{}&body=Just+click%27Submit+new+issue%27.+Thanks+for+playing+my+game!"
+
+    data = "|<a href='" + orgissuelink.format("click", str(x) + alpha[y]) + "'>![](" + orglink + imglink + ".png)</a><a href='" + orgissuelink.format("flag", str(x) + alpha[y]) + "'>🚩</a>|"
 
     readmefile = open("raspiduino/README.md", "w")
     for line in readme[:8+x]:

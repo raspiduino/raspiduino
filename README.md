@@ -18,6 +18,8 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 
 
 ## How to play?
+This is a 8x8 table with 10 mines inside.
+
 - If you want to click to a cell, open a issue with the title ```minesweeper:click:yourcelllocation```. For example: ```minesweeper:click:5a```
 - If you want to flag a cell as mine, open a issue with the title ```minesweeper:flag:yourcelllocation```. For example: ```minesweeper:flag:5a```
 

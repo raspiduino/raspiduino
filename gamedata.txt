@@ -8,5 +8,5 @@
 [1, 2, 'o', 1, 0, 0, 0, 0]
 False
 False
-['', '@raspiduino|https://github.com/raspiduino|Click|1|c']
+,@raspiduino|https://github.com/raspiduino|Click|6|a
 []

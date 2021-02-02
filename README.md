@@ -12,7 +12,7 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 3 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
 | 4 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
 | 5 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 6 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
+| 6 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
 | 7 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
 
 
@@ -20,7 +20,7 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
-| Click 1c | <a href='https://github.com/raspiduino'>@raspiduino</a>
+| Click 6a | <a href='https://github.com/raspiduino'>@raspiduino</a>
 |        |      |
 |        |      |
 |        |      |
@@ -60,6 +60,7 @@ When you open an issue, this will trigger the github action to run the Python sc
 
 ## Issue? Questions?
 Open an issue and assign to me! Any ideas are welcome! ☺
+
 
 
 

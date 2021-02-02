@@ -295,7 +295,7 @@ def re_generate():
     readmefile.close()
 
     readme = readme.split('\n')
-    readme[17] == ""
+    readme[17] = ""
 
     readmefile = open("raspiduino/README.md", "w")
     readmefile.write('\n'.join(readme))
@@ -353,7 +353,7 @@ else:
             # - Click to 0 cell          -> Show all nearby 0 cell and other cell until have a number
             #       different than 0
             # - Click to bomb cell       -> You die -> Reset game
-            
+
             #print(int(request_title[2][0]))
             #print(alpha.index(request_title[2][1]))
             cellx = int(request_title[2][0])
@@ -415,7 +415,7 @@ else:
             else:
                 # Add a flag
                 gameactiontable[cellx][celly] = "P"
-            displaygametable(gametable, cellx, celly, False, "flagged")
+            displaygametable(gametable, cellx, celly, False, 'flagged')
             currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
             currentissue.edit(state='closed') # Close that issue
             #displaylastplaytable(currentissue)
@@ -424,6 +424,8 @@ else:
 
         elif request_title[1] == "playagain":
             re_generate()
+            currentissue.create_comment("Ok! You can play again now at https://github.com/raspiduino")
+            currentissue.edit(state='closed') # Close that issue
 
     except Exception as e:
         print("Error!")

@@ -29,16 +29,17 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Leaderboard
 | Count | Who? |
 | ----- | ---- |
-|       |      |
-|       |      |
-|       |      |
-|       |      |
-|       |      |
-|       |      |
-|       |      |
-|       |      |
-|       |      |
-|       |      |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+
 
 ## How to play?
 - If you want to click to a cell, open a issue with the title ```minesweeper:click:yourcelllocation```. For example: ```minesweeper:click:5a```

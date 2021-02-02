@@ -1,5 +1,5 @@
 
-# Hi there 👋
+# Hi there 👋 You are one among ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=raspiduino.raspiduino&label=) visitor visit my 🏡 page!
 
 ## Minesweeper game 💣💣!
 If you came here, why don't you play some minesweeper? The game is open for everyone!

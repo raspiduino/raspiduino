@@ -145,7 +145,7 @@ def leaderboard():
     gamestatefile.close()
 
     readmefile = open("raspiduino/README.md", "r")
-    readme = readmefile.read()
+    readme = readmefile.read().split('\n')
     readmefile.close()
 
     leaderboardlist = gamedata[11].split(',')

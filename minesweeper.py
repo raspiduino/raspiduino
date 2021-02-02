@@ -72,7 +72,7 @@ def displaygametable(gametable, x, y, usegametable=True, img=None, gameactiontab
             # Flagged
             imglink = "flagged"
 
-        if cell == "o":
+        elif cell == "o":
             # Mine!
             imglink = "bomb"
 
@@ -110,7 +110,7 @@ def writegameactiontable(gameactiontable):
         gameactionfile.write(str(line)+"\n")
     gameactionfile.close()
 
-def checkifwon():
+def checkifwon(gametable, gameactiontable):
     gameactionfile = open("minesweeper_readme/action.txt", "r")
     gameaction = gameactionfile.read()
     gameactionfile.close()
@@ -119,7 +119,21 @@ def checkifwon():
         # You win!
         print("You win!")
 
-        # Display all 
+        # Display all things
+        for x in range(8):
+            for y in range(8):
+                displaygametable(gametable, x, y, gameactiontable=gameactiontable)
+
+        readmefile = open("raspiduino/README.md", "r")
+        readme = readmefile.read()
+        readmefile.close()
+
+        readme = readme.split('\n')
+        readme[17] == "<br>You win! Wanted to play again? Click <a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aplayagain&body=Just+push+%27Submit+new+issue%27+to+play+again.+You+don%27t+need+to+do+anything+else.'>here</a>"
+
+        readmefile = open("raspiduino/README.md", "w")
+        readmefile.write('\n'.join(readme))
+        readmefile.close()
 
 def re_generate():
     # Re-generate the game
@@ -273,6 +287,17 @@ def re_generate():
     for x in range(8):
         for y in range(8):
             displaygametable(gametable, x, y, False, "facingDown")
+
+    readmefile = open("raspiduino/README.md", "r")
+    readme = readmefile.read()
+    readmefile.close()
+
+    readme = readme.split('\n')
+    readme[17] == ""
+
+    readmefile = open("raspiduino/README.md", "w")
+    readmefile.write('\n'.join(readme))
+    readmefile.close()
     
 if gamedata[8] == "True":
     # Use once and ONLY when this game first start.
@@ -355,6 +380,17 @@ else:
                     for y in range(8):
                         displaygametable(gametable, x, y, gameactiontable=gameactiontable)
 
+                readmefile = open("raspiduino/README.md", "r")
+                readme = readmefile.read()
+                readmefile.close()
+
+                readme = readme.split('\n')
+                readme[17] == "<br>You lost! Wanted to play again? Click <a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aplayagain&body=Just+push+%27Submit+new+issue%27+to+play+again.+You+don%27t+need+to+do+anything+else.'>here</a>"
+
+                readmefile = open("raspiduino/README.md", "w")
+                readmefile.write('\n'.join(readme))
+                readmefile.close()
+
                 #displaylastplaytable(currentissue)
 
             else:
@@ -365,7 +401,7 @@ else:
                 gameactiontable[cellx][celly] = "X"
                 #displaylastplaytable(currentissue)
                 writegameactiontable(gameactiontable)
-                checkifwon()
+                checkifwon(gametable, gameactiontable)
         
         elif request_title[1] == "flag":
             # Flag a cell
@@ -383,7 +419,10 @@ else:
             currentissue.edit(state='closed') # Close that issue
             #displaylastplaytable(currentissue)
             writegameactiontable(gameactiontable)
-            checkifwon()
+            checkifwon(gametable, gameactiontable)
+
+        elif request_title[1] == "playagain":
+            re_generate()
 
     except Exception as e:
         print("Error!")

@@ -165,8 +165,6 @@ def leaderboard():
         leaderboardlist.append(newplayer[0] + '|' + newplayer[1] + '|1')
 
     leaderboardlist.sort()
-    
-    print(leaderboardlist)
 
     if len(leaderboardlist) > 20:
         leaderboardlist.pop(0)
@@ -179,6 +177,10 @@ def leaderboard():
     readmefile = open("raspiduino/README.md", "w")
     readmefile.write('\n'.join(readme))
     readmefile.close()
+
+    gamestatefile = open("minesweeper_readme/gamedata.txt", "w")
+    gamestatefile.write('\n'.join(gamedata))
+    gamestatefile.close()
 
 def lastplay(currentissue, action, x, y):
     gamestatefile = open("minesweeper_readme/gamedata.txt", "r")

@@ -172,12 +172,14 @@ def leaderboard():
     i = 31
     for leaduser in leaderboardlist[::-1]:
         leadusercontent = leaduser.split('|')
-        readme[i] = "| " + leadusercontent[2] + " | <a href='" + leadusercontent[1] + "'>" + leadusercontent[0] + "</a>|" 
+        readme[i] = "| " + leadusercontent[0] + " | <a href='" + leadusercontent[2] + "'>" + leadusercontent[1] + "</a>|" 
     
     readmefile = open("raspiduino/README.md", "w")
     readmefile.write('\n'.join(readme))
     readmefile.close()
 
+    gamedata[11] = ','.join(leaderboardlist)
+    
     gamestatefile = open("minesweeper_readme/gamedata.txt", "w")
     gamestatefile.write('\n'.join(gamedata))
     gamestatefile.close()

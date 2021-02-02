@@ -6,109 +6,29 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 
 |   | A | B | C | D | E | F | G | H |
 | - | - | - | - | - | - | - | - | - |
-| 0 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 1 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 2 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 3 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 4 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 5 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 6 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 7 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-
-### Last play
-| Click /Flag | Who? |
-| ----------- | ---- |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-
-### Top 20 leaderboard: Who has most move?
-| Moves count | Who? |
-| ----------- | ---- |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-|             |      |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| 0 |   |   |   |   |   |   |   |   |
+| 1 |   |   |   |   |   |   |   |   |
+| 2 |   |   |   |   |   |   |   |   |
+| 3 |   |   |   |   |   |   |   |   |
+| 4 |   |   |   |   |   |   |   |   |
+| 5 |   |   |   |   |   |   |   |   |
+| 6 |   |   |   |   |   |   |   |   |
+| 7 |   |   |   |   |   |   |   |   |
+
+
+
+## How to play?
+- If you want to click to a cell, open a issue with the title ```minesweeper:click:yourcelllocation```. For example: ```minesweeper:click:5a```
+- If you want to flag a cell as mine, open a issue with the title ```minesweeper:flag:yourcelllocation```. For example: ```minesweeper:flag:5a```
+
+## How this work?
+When you open an issue, this will trigger the github action to run the Python script and update the game.
+
+## Todo:
+- Add clickable button to play
+- Add '0' cell open support
+- Add Leader board and last play board
+- Make this more colorful ✨
+
+## Issue? Questions?
+Open an issue and assign to me! Any ideas are welcome! 😀

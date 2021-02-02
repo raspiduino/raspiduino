@@ -146,11 +146,10 @@ def lastplay(currentissue, action, x, y):
     readme = readmefile.read().split("\n")
     readmefile.close()
 
-    lastplayboard = gamedata[10][1:-1].split(",")
+    lastplayboard = gamedata[10].split(",")
     lastplayboard.append(currentissue.user.name + "|" + currentissue.user.html_url + "|" + action + "|" + str(x) + "|" + alpha[y])
-    print(lastplayboard)
 
-    if len(lastplayboard) == 6:
+    if len(lastplayboard) > 5:
         lastplayboard.pop(0) # Remove one
 
     gamedata[10] = str(','.join(lastplayboard))
@@ -160,6 +159,7 @@ def lastplay(currentissue, action, x, y):
 
     for item in lastplayboard:
         readme[22 + i] = "| " + action + " " + str(x) + alpha[y] + " | <a href='" + currentissue.user.html_url + "'>" + currentissue.user.name + "</a>"
+        i += 1
 
     # Save things back
     readmefile = open("raspiduino/README.md", "w")

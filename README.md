@@ -46,7 +46,6 @@ Open an issue and assign to me! Any ideas are welcome! ☺
 ***
 
 # About me
-- 😀 I'm 14 years old.
 - 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python and build houses will soil and Uno card 🤣
 - 📧 How to reach me: my email ```raspiduinogit@gmail.com```
 - 🔭 I'm currently working on some stupid project, like Loading Arduino Hex from SD card, running Linux on Arduino Uno (this actually have been done by Dmitry <a href="http://dmitry.gr/?r=05.Projects&proj=07.%20Linux%20on%208bit">here</a>), creating my own OS?!

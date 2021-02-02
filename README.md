@@ -29,8 +29,8 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Leaderboard
 | Count | Who? |
 | ----- | ---- |
-| 110 | <a href='https://github.com/raspiduino'>@raspiduino</a>
-
+| 110 | <a href='https://github.com/raspiduino'>@raspiduino</a> |
+| 1   | <a href='https://github.com/cosmoglint'>Ram Prakash</a> |
 
 
 

@@ -6,7 +6,7 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 
 |   | A | B | C | D | E | F | G | H |
 | - | - | - | - | - | - | - | - | - |
-| 0 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
+| 0 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
 | 1 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
 | 2 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
 | 3 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
@@ -20,10 +20,10 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
-| Click 1c | <a href='https://github.com/raspiduino'>@raspiduino</a>
-| Click 1c | <a href='https://github.com/raspiduino'>@raspiduino</a>
-| Click 1c | <a href='https://github.com/raspiduino'>@raspiduino</a>
-|        |      |
+| Click 0b | <a href='https://github.com/raspiduino'>@raspiduino</a>
+| Click 0b | <a href='https://github.com/raspiduino'>@raspiduino</a>
+| Click 0b | <a href='https://github.com/raspiduino'>@raspiduino</a>
+| Click 0b | <a href='https://github.com/raspiduino'>@raspiduino</a>
 |        |      |
 
 ## Leaderboard
@@ -60,6 +60,7 @@ When you open an issue, this will trigger the github action to run the Python sc
 
 ## Issue? Questions?
 Open an issue and assign to me! Any ideas are welcome! ☺
+
 
 
 

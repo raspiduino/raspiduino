@@ -415,11 +415,13 @@ else:
             if gameactiontable[cellx][celly] == "P":
                 # Remove flag if existed
                 gameactiontable[cellx][celly] = 0
-
+                # Chang the icon back
+                displaygametable(gametable, cellx, celly, False, 'facingDown')
+            
             else:
                 # Add a flag
                 gameactiontable[cellx][celly] = "P"
-            displaygametable(gametable, cellx, celly, False, 'flagged')
+                displaygametable(gametable, cellx, celly, False, 'flagged')
             currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
             currentissue.edit(state='closed') # Close that issue
             #displaylastplaytable(currentissue)

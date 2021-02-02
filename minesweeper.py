@@ -148,11 +148,12 @@ def lastplay(currentissue, action, x, y):
 
     lastplayboard = gamedata[10][1:-1].split(",")
     lastplayboard.append(currentissue.user.name + "|" + currentissue.user.html_url + "|" + action + "|" + str(x) + "|" + alpha[y])
+    print(lastplayboard)
 
     if len(lastplayboard) == 6:
         lastplayboard.pop(0) # Remove one
 
-    gamedata[10] = str(lastplayboard)    
+    gamedata[10] = str(','.join(lastplayboard))
 
     # Display the board
     i = 0

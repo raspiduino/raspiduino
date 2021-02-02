@@ -26,6 +26,9 @@ Click <a href="https://github.com/raspiduino/raspiduino/issues">here</a> to goto
 ## How this work?
 When you open an issue, this will trigger the github action to run the Python script and update the game.
 
+## Notes
+- This is unstable now, sorry for that!
+
 ## Todo:
 - Add clickable button to play
 - Add '0' cell open support

@@ -54,7 +54,7 @@ readmefile.close()
 
 readme = readme.split('\n')
 
-def displaygametable(gametable, x, y, usegametable=True, img=None):
+def displaygametable(gametable, x, y, usegametable=True, img=None, gameactiontable=None):
     global readme
     displayline = readme[8+x].split("|")
 
@@ -66,12 +66,13 @@ def displaygametable(gametable, x, y, usegametable=True, img=None):
 
     if usegametable == True:
         cell = gametable[x][y]
+        action = gameactiontable[x][y]
 
-        if "P" in cell:
-            # Flag!
+        if action == "P":
+            # Flagged
             imglink = "flagged"
 
-        elif cell == "o":
+        if cell == "o":
             # Mine!
             imglink = "bomb"
 
@@ -101,6 +102,25 @@ def displaygametable(gametable, x, y, usegametable=True, img=None):
 
     readme = readme.split('\n')
 
+def writegameactiontable(gameactiontable):
+    # Write to gameaction.txt
+    gameactionfile = open("minesweeper_readme/action.txt", "w")
+    # Write table
+    for line in gameactiontable:
+        gameactionfile.write(str(line)+"\n")
+    gameactionfile.close()
+
+def checkifwon():
+    gameactionfile = open("minesweeper_readme/action.txt", "r")
+    gameaction = gameactionfile.read()
+    gameactionfile.close()
+
+    if not "0" in gameaction:
+        # You win!
+        print("You win!")
+
+        # Display all 
+
 def re_generate():
     # Re-generate the game
     print("Re-generating the game table...")
@@ -113,12 +133,7 @@ def re_generate():
         for y in range(8):
             gametable[x].append(0) # Add new coloumn
 
-    # Write to game action file
-
-    gameactionfile = open("minesweeper_readme/action.txt", "w")
-    for line in gametable:
-        gameactionfile.write(str(line)+"\n")
-    gameactionfile.close()
+    writegameactiontable(gametable)
     
     # Create mines: 10 mines
     print("Creating mines...")
@@ -287,7 +302,7 @@ else:
 
     gameaction = gameaction.split('\n')
 
-    for x in gameaction[]:
+    for x in gameaction:
         gameactiontable.append([])
         for y in x[1:-1].split(', '):
             if "'" in y:
@@ -302,7 +317,8 @@ else:
     g = Github(myaccesstoken) # Login using token
     repo = g.get_repo("raspiduino/raspiduino")
     try:
-        request_title = repo.get_issues(state='open')[0].title # Pick one of the request and get its title
+        currentissue = repo.get_issues(state='open')[0]
+        request_title = currentissue.title # Pick one of the request and get its title
         request_title = request_title.split(":") # Split the request by ':'
         if request_title[1] == "click":
             # One of three things may happen:
@@ -314,9 +330,13 @@ else:
             alpha = ['a','b','c','d','e','f','g','h']
             #print(int(request_title[2][0]))
             #print(alpha.index(request_title[2][1]))
-            if gametable[int(request_title[2][0])][alpha.index(request_title[2][1])] == "o":
+            cellx = int(request_title[2][0])
+            celly = alpha.index(request_title[2][1])
+
+            if gametable[cellx][celly] == "o":
                 print("You dead!")
-                repo.get_issues(state='open')[0].edit(state='closed') # Close that issue
+                currentissue.create_comment("You dead, but don't worry, you can always play again!")
+                currentissue.edit(state='closed') # Close that issue
 
 
                 # Write to gamedata.txt
@@ -332,28 +352,38 @@ else:
 
                 # Show the full game table
                 for x in range(8):
-                    for y in range(8)
-                        displaygametable(gametable, x, y)
+                    for y in range(8):
+                        displaygametable(gametable, x, y, gameactiontable=gameactiontable)
 
-            elif gametable[int(request_title[2][0])][alpha.index(request_title[2][1])] == "0":
-                pass # Work on this later
+                #displaylastplaytable(currentissue)
 
             else:
                 # Any other number -> Display that number
-                displaygametable(gametable, int(request_title[2][0]), alpha.index(request_title[2][1]))
-                repo.get_issues(state='open')[0].edit(state='closed') # Close that issue
-                gameactiontable[int(request_title[2][0])][alpha.index(request_title[2][1])] = "X"
-
-                # Write to gameaction.txt
-                gameactionfile = open("minesweeper_readme/action.txt", "w")
-                # Write table
-                for line in gameactiontable:
-                    gameactionfile.write(str(line)+"\n")
-                gameactionfile.close()
+                displaygametable(gametable, cellx, celly, gameactiontable=gameactiontable)
+                currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
+                currentissue.edit(state='closed') # Close that issue
+                gameactiontable[cellx][celly] = "X"
+                #displaylastplaytable(currentissue)
+                writegameactiontable(gameactiontable)
+                checkifwon()
         
         elif request_title[1] == "flag":
             # Flag a cell
-            pass
+            cellx = int(request_title[2][0])
+            celly = alpha.index(request_title[2][1])
+            if gameactiontable[cellx][celly] == "P":
+                # Remove flag if existed
+                gameactiontable[cellx][celly] = gameactiontable[cellx][celly][:1]
+
+            else:
+                # Add a flag
+                gameactiontable[cellx][celly] = gameactiontable[cellx][celly] + "P"
+            displaygametable(gametable, cellx, celly, gameactiontable=gameactiontable)
+            currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
+            currentissue.edit(state='closed') # Close that issue
+            #displaylastplaytable(currentissue)
+            writegameactiontable(gameactiontable)
+            checkifwon()
 
     except Exception as e:
         print("Error!")

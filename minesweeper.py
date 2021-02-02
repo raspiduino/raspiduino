@@ -117,7 +117,11 @@ def checkifwon(gametable, gameactiontable):
     gameaction = gameactionfile.read()
     gameactionfile.close()
 
-    if not "0" in gameaction:
+    totalflag = 0
+    for x in gameactiontable:
+         totalflag += x.count("P")
+
+    if (not "0" in gameaction) and totalflag == 10:
         # You win!
         print("You win!")
 
@@ -410,7 +414,7 @@ else:
             celly = alpha.index(request_title[2][1])
             if gameactiontable[cellx][celly] == "P":
                 # Remove flag if existed
-                gameactiontable[cellx][celly] = gameactiontable[cellx][celly][:1]
+                gameactiontable[cellx][celly] = 0
 
             else:
                 # Add a flag

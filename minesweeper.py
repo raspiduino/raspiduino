@@ -86,7 +86,7 @@ def displaygametable(gametable, x, y, usegametable=True, img=None, gameactiontab
         # Manually
         imglink = img
 
-    orgissuelink = "https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3A{}%3A{}&body=Just+click%27Submit+new+issue%27.+Thanks+for+playing+my+game!"
+    orgissuelink = "https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3A{}%3A{}&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!"
 
     data = "|<a href='" + orgissuelink.format("click", str(x) + alpha[y]) + "'>![](" + orglink + imglink + ".png)</a><a href='" + orgissuelink.format("flag", str(x) + alpha[y]) + "'>🚩</a>|"
 

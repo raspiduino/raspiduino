@@ -174,7 +174,8 @@ def leaderboard():
     i = 31
     for leaduser in leaderboardlist:
         leadusercontent = leaduser.split('|')
-        readme[i] = "| " + leadusercontent[0] + " | <a href='" + leadusercontent[2] + "'>" + leadusercontent[1] + "</a>|" 
+        readme[i] = "| " + leadusercontent[0] + " | <a href='" + leadusercontent[2] + "'>" + leadusercontent[1] + "</a>|"
+        i += 1
     
     readmefile = open("raspiduino/README.md", "w")
     readmefile.write('\n'.join(readme))

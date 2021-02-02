@@ -6,25 +6,25 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 
 |   | A | B | C | D | E | F | G | H |
 | - | - | - | - | - | - | - | - | - |
-| 0 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 1 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/flagged.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/flagged.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 2 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/3.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 3 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/flagged.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 4 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 5 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 6 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
-| 7 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/facingDown.png)|
+| 0 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/bomb.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|
+| 1 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/flagged.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/flagged.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/3.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|
+| 2 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/3.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/bomb.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/3.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/bomb.png)|
+| 3 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/flagged.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/bomb.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|
+| 4 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|
+| 5 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/bomb.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|
+| 6 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/bomb.png)|
+| 7 |![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/bomb.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)|
 
-
+<br>You lost! Wanna to play again? Click <a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aplayagain&body=Just+push+%27Submit+new+issue%27+to+play+again.+You+don%27t+need+to+do+anything+else.'>here</a>
 
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 1a | <a href='https://github.com/cosmoglint'>Ram Prakash</a>
 | Click 4e | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Flag 3b | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 4a | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 4c | <a href='https://github.com/raspiduino'>@raspiduino</a>
-| Flag 1e | <a href='https://github.com/raspiduino'>@raspiduino</a>
 
 ## How to play?
 - If you want to click to a cell, open a issue with the title ```minesweeper:click:yourcelllocation```. For example: ```minesweeper:click:5a```
@@ -50,3 +50,67 @@ Open an issue and assign to me! Any ideas are welcome! ☺
 - 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python and build houses will soil and Uno card 🤣
 - 📧 How to reach me: my email ```raspiduinogit@gmail.com```
 - 🔭 I'm currently working on some stupid project, like Loading Arduino Hex from SD card, running Linux on Arduino Uno (this actually have been done by Dmitry <a href="http://dmitry.gr/?r=05.Projects&proj=07.%20Linux%20on%208bit">here</a>), creating my own OS?!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

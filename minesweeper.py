@@ -331,9 +331,9 @@ else:
         gameactiontable.append([])
         for y in x[1:-1].split(', '):
             if "'" in y:
-                gametable[i].append(y[1:-1])
+                gameactiontable[i].append(y[1:-1])
             else:
-                gametable[i].append(y)
+                gameactiontable[i].append(y)
         i += 1
 
     #print(gametable)

@@ -30,7 +30,6 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | Count | Who? |
 | ----- | ---- |
 | 4 | <a href='https://github.com/cosmoglint'>Ram Prakash</a>|
-| 1   | <a href='https://github.com/cosmoglint'>Ram Prakash</a> |
 
 
 

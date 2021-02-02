@@ -26,6 +26,30 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | Click 4e | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Flag 3b | <a href='https://github.com/raspiduino'>@raspiduino</a>
 
+## Leaderboard
+| Count | Who? |
+| ----- | ---- |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+|   .   |  ..  |
+
 ## How to play?
 Simply you can click on a cell to open it, or click on the flag in that cell to flag it. Or:
 

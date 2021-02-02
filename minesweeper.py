@@ -148,7 +148,7 @@ def leaderboard():
 
     leaderboardlist = gamedata[11].split(',')
 
-    newplayer = gamedata[10].split(',')[0].split('|')
+    newplayer = gamedata[10].split(',')[-1].split('|')
     
     userexisted = False
 

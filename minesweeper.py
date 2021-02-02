@@ -423,17 +423,17 @@ else:
                 readmefile = open("raspiduino/README.md", "w")
                 readmefile.write('\n'.join(readme))
                 readmefile.close()
+                lastplay(currentissue, "Click", cellx, celly)
 
             else:
                 # Any other number -> Display that number
                 displaygametable(gametable, cellx, celly, gameactiontable=gameactiontable)
                 currentissue.create_comment("Done! You can check again at https://github.com/raspiduino")
                 currentissue.edit(state='closed') # Close that issue
+                lastplay(currentissue, "Click", cellx, celly)
                 gameactiontable[cellx][celly] = "X"
                 writegameactiontable(gameactiontable)
                 checkifwon(gametable, gameactiontable)
-            
-            lastplay(currentissue, "Click", cellx, celly)
 
         elif request_title[1] == "flag":
             # Flag a cell

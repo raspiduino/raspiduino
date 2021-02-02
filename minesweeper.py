@@ -213,6 +213,8 @@ def lastplay(currentissue, action, x, y):
     gamestatefile = open("minesweeper_readme/gamedata.txt", "w")
     gamestatefile.write('\n'.join(gamedata))
     gamestatefile.close()
+    
+    leaderboard()
 
 def re_generate():
     # Re-generate the game

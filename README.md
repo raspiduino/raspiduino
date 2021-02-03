@@ -20,16 +20,16 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Flag 2d | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 2d | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 1e | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Flag 2d | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 1f | <a href='https://github.com/raspiduino'>@raspiduino</a>
-| Click 1d | <a href='https://github.com/raspiduino'>@raspiduino</a>
 
 ## Leaderboard
 | Count | Who? |
 | ----- | ---- |
-| 132 | <a href='https://github.com/raspiduino'>@raspiduino</a>|
+| 133 | <a href='https://github.com/raspiduino'>@raspiduino</a>|
 | 3 | <a href='https://github.com/cosmoglint'>Ram Prakash</a>|
 
 
@@ -77,6 +77,7 @@ Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <
 - 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python and build houses will soil and Uno card 🤣
 - 📧 How to reach me: my email ```raspiduinogit@gmail.com```
 - 🔭 I'm currently working on some stupid project, like Loading Arduino Hex from SD card, running Linux on Arduino Uno (this actually have been done by Dmitry <a href="http://dmitry.gr/?r=05.Projects&proj=07.%20Linux%20on%208bit">here</a>), creating my own OS?!
+
 
 
 

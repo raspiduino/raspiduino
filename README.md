@@ -22,15 +22,16 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | ------ | ---- |
 | Click 4d | <a href='https://github.com/cosmoglint'>Ram Prakash</a>
 | Click 4d | <a href='https://github.com/cosmoglint'>Ram Prakash</a>
+| Click 3f | <a href='https://github.com/steltsag'>Ram Prakash</a>
 | Click 4c | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 1c | <a href='https://github.com/raspiduino'>@raspiduino</a>
-| Click 2c | <a href='https://github.com/raspiduino'>@raspiduino</a>
 
 ## Leaderboard
 | Count | Who? |
 | ----- | ---- |
 | 137 | <a href='https://github.com/raspiduino'>@raspiduino</a>|
 | 6 | <a href='https://github.com/cosmoglint'>Ram Prakash</a>|
+| 1 | <a href='https://github.com/steltsag'>Ram Prakash</a>|
 
 
 

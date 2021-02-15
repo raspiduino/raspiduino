@@ -197,7 +197,13 @@ def lastplay(currentissue, action, x, y):
     readmefile.close()
 
     lastplayboard = gamedata[10].split(",")
-    lastplayboard.append(currentissue.user.name + "|" + currentissue.user.html_url + "|" + action + "|" + str(x) + "|" + alpha[y])
+    if currentissue.user.name != None:
+        # If the name of user is not empty
+        lastplayboard.append(currentissue.user.name + "|" + currentissue.user.html_url + "|" + action + "|" + str(x) + "|" + alpha[y])
+    
+    else:
+        # If the name of user is empty -> Display username
+        lastplayboard.append(currentissue.user.login + "|" + currentissue.user.html_url + "|" + action + "|" + str(x) + "|" + alpha[y])
 
     if len(lastplayboard) > 5:
         lastplayboard.pop(0) # Remove one

@@ -70,9 +70,13 @@ Open an issue and assign to me! Any ideas are welcome! ☺
 
 ## Credit
 Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <a href="https://github.com/timburgan/timburgan">repo</a> has inspired me!
+<br>Thanks to <a href="https://github.com/anuraghazra">Anurag Hazra</a> and his wonderful <a href="https://github.com/anuraghazra/github-readme-stats">project</a>!
 
 ***
 ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=raspiduino.raspiduino)
+
+![Raspiduino's Github Stats](https://github-readme-stats.vercel.app/api?username=raspiduino&count_private=true&show_icons=true)
+![Raspiduino's Github Stats Top langs](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=raspiduino&layout=compact)
 
 # About me
 - 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python and build houses will soil and Uno card 🤣

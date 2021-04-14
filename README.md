@@ -20,18 +20,18 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 0a | <a href='https://github.com/cgiang'>cgiang</a>
 | Click 3a | <a href='https://github.com/cgiang'>cgiang</a>
 | Click 0a | <a href='https://github.com/cgiang'>cgiang</a>
 | Click 3b | <a href='https://github.com/cosmoglint'>Ram Prakash</a>
 | Click 1c | <a href='https://github.com/raspiduino'>@raspiduino</a>
-| Click 2f | <a href='https://github.com/raspiduino'>@raspiduino</a>
 
 ## Leaderboard
 | Count | Who? |
 | ----- | ---- |
 | 140 | <a href='https://github.com/raspiduino'>@raspiduino</a>|
 | 1 | <a href='https://github.com/steltsag'>steltsag</a>|
-| 2 | <a href='https://github.com/cgiang'>cgiang</a>|
+| 3 | <a href='https://github.com/cgiang'>cgiang</a>|
 | 8 | <a href='https://github.com/cosmoglint'>Ram Prakash</a>|
 
 
@@ -82,6 +82,7 @@ Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <
 - 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python, emulator, virtualization and build houses will soil and Uno card 🤣
 - 📧 How to reach me: my email ```raspiduinogit@gmail.com```
 - 🔭 I'm currently working on some stupid project, like Loading Arduino Hex from SD card, running Linux on Arduino Uno (this actually have been done by Dmitry <a href="http://dmitry.gr/?r=05.Projects&proj=07.%20Linux%20on%208bit">here</a>), creating my own OS?!
+
 
 
 

@@ -43,7 +43,7 @@ False
 []
 []
 The reason why it isn't shown here because it has all the information about where is mines, so you will
-no it and then...cheating. What about me? Well... :D
+know it and then...cheating. What about me? Well... :D
 '''
 
 # Read the 'Readme' file

@@ -76,7 +76,7 @@ Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <
 ![Visitor count](https://shields-io-visitor-counter.herokuapp.com/badge?page=raspiduino.raspiduino)
 
 ![Raspiduino's Github Stats](https://github-readme-stats.vercel.app/api?username=raspiduino&count_private=true&show_icons=true)
-![Raspiduino's Github Stats Top langs](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=raspiduino&layout=compact)
+![Raspiduino's Github Stats Top langs](https://github-readme-stats.anuraghazra1.vercel.app/api/top-langs/?username=raspiduino&layout=compact&lang_count=10)
 
 # About me
 - 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python, emulator, virtualization and build houses will soil and Uno card 🤣

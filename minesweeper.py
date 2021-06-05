@@ -2,6 +2,9 @@
 Github profile's Readme minesweeper game
 Copyright @raspiduino 2021
 Date created 30/1/2021
+
+This code can also be used for offline game, not just on Github Profiles.
+If you like it, please star, fork and watch it. Thanks!
 '''
 
 import random
@@ -476,7 +479,7 @@ else:
             readmefile.close()
 
             readme = readme.split('\n')
-            readme[17] = "<br>You lost! Wanna to play again? Click <a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aplayagain&body=Just+push+%27Submit+new+issue%27+to+play+again.+You+don%27t+need+to+do+anything+else.'>here</a>"
+            readme[17] = "<br>You lost! Wanna play again? Click <a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aplayagain&body=Just+push+%27Submit+new+issue%27+to+play+again.+You+don%27t+need+to+do+anything+else.'>here</a>"
 
             readmefile = open("raspiduino/README.md", "w")
             readmefile.write('\n'.join(readme))

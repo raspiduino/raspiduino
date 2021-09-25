@@ -20,11 +20,11 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 7a | <a href='https://github.com/linux-admin0001'>LINUX_ADMIN</a>
 | Click 0c | <a href='https://github.com/linux-admin0001'>LINUX_ADMIN</a>
 | Click 1c | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 5e | <a href='https://github.com/ddrummond00'>ddrummond00</a>
 | Click 3d | <a href='https://github.com/programmeruser2'>programmeruser2</a>
-| Click 0a | <a href='https://github.com/virut1'>virut1</a>
 
 ## Leaderboard
 | Count | Who? |
@@ -32,12 +32,12 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 11 | <a href='https://github.com/cgiang'>cgiang</a>|
 | 154 | <a href='https://github.com/raspiduino'>@raspiduino</a>|
 | 15 | <a href='https://github.com/soubikbhuiwk007'>Soubik Bhui</a>|
-| 1 | <a href='https://github.com/linux-admin0001'>LINUX_ADMIN</a>|
 | 1 | <a href='https://github.com/hmsjy2017'>Tony</a>|
 | 1 | <a href='https://github.com/ddrummond00'>ddrummond00</a>|
 | 1 | <a href='https://github.com/programmeruser2'>programmeruser2</a>|
 | 1 | <a href='https://github.com/steltsag'>steltsag</a>|
 | 1 | <a href='https://github.com/virut1'>virut1</a>|
+| 2 | <a href='https://github.com/linux-admin0001'>LINUX_ADMIN</a>|
 | 8 | <a href='https://github.com/cosmoglint'>Ram Prakash</a>|
 
 
@@ -82,6 +82,7 @@ Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <
 - 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python, emulator, virtualization and build houses will soil and Uno card 🤣
 - 📧 How to reach me: my email ```raspiduinogit@gmail.com```
 - 🔭 I'm currently working on some stupid project, like Loading Arduino Hex from SD card, running Linux on Arduino Uno (this actually have been done by Dmitry <a href="http://dmitry.gr/?r=05.Projects&proj=07.%20Linux%20on%208bit">here</a>), creating my own OS?!
+
 
 
 

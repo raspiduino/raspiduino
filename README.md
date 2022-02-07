@@ -20,11 +20,11 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Flag 7b | <a href='https://github.com/danielkasza'>Daniel Kasza</a>
 | Flag 7b | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 7a | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 6c | <a href='https://github.com/danielkasza'>Daniel Kasza</a>
 | Click 6b | <a href='https://github.com/danielkasza'>Daniel Kasza</a>
-| Click 6a | <a href='https://github.com/danielkasza'>Daniel Kasza</a>
 
 ## Leaderboard
 | Count | Who? |
@@ -40,7 +40,7 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 1 | <a href='https://github.com/steltsag'>steltsag</a>|
 | 1 | <a href='https://github.com/virut1'>virut1</a>|
 | 2 | <a href='https://github.com/linux-admin0001'>LINUX_ADMIN</a>|
-| 58 | <a href='https://github.com/danielkasza'>Daniel Kasza</a>|
+| 59 | <a href='https://github.com/danielkasza'>Daniel Kasza</a>|
 | 8 | <a href='https://github.com/cosmoglint'>Ram Prakash</a>|
 
 
@@ -82,6 +82,7 @@ Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <
 - 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python, emulator, virtualization and build houses will soil and Uno card 🤣
 - 📧 How to reach me: my email ```raspiduinogit@gmail.com```
 - 🔭 I'm currently working on some stupid project, like Loading Arduino Hex from SD card, running Linux on Arduino Uno (this actually have been done by Dmitry <a href="http://dmitry.gr/?r=05.Projects&proj=07.%20Linux%20on%208bit">here</a>), creating my own OS?!
+
 
 
 

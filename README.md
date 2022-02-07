@@ -20,11 +20,11 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 2h | <a href='https://github.com/danielkasza'>Daniel Kasza</a>
 | Click 3g | <a href='https://github.com/danielkasza'>Daniel Kasza</a>
 | Click 2h | <a href='https://github.com/danielkasza'>Daniel Kasza</a>
 | Click 1h | <a href='https://github.com/danielkasza'>Daniel Kasza</a>
 | Click 1g | <a href='https://github.com/danielkasza'>Daniel Kasza</a>
-| Click 2g | <a href='https://github.com/danielkasza'>Daniel Kasza</a>
 
 ## Leaderboard
 | Count | Who? |
@@ -32,7 +32,7 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 11 | <a href='https://github.com/cgiang'>cgiang</a>|
 | 157 | <a href='https://github.com/raspiduino'>@raspiduino</a>|
 | 15 | <a href='https://github.com/soubikbhuiwk007'>Soubik Bhui</a>|
-| 16 | <a href='https://github.com/danielkasza'>Daniel Kasza</a>|
+| 17 | <a href='https://github.com/danielkasza'>Daniel Kasza</a>|
 | 1 | <a href='https://github.com/GameursProduction'>Matis André</a>|
 | 1 | <a href='https://github.com/hmsjy2017'>Tony</a>|
 | 1 | <a href='https://github.com/zhiyisun'>Zhiyi Sun</a>|
@@ -82,6 +82,7 @@ Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <
 - 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python, emulator, virtualization and build houses will soil and Uno card 🤣
 - 📧 How to reach me: my email ```raspiduinogit@gmail.com```
 - 🔭 I'm currently working on some stupid project, like Loading Arduino Hex from SD card, running Linux on Arduino Uno (this actually have been done by Dmitry <a href="http://dmitry.gr/?r=05.Projects&proj=07.%20Linux%20on%208bit">here</a>), creating my own OS?!
+
 
 
 

@@ -26,7 +26,7 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | Click 1d | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 7b | <a href='https://github.com/Peugeot205GTI'>Peugeot 205 GTI</a>
 
-## Leaderboard
+## Players
 | Count | Who? |
 | ----- | ---- |
 | 11 | <a href='https://github.com/cgiang'>cgiang</a>|
@@ -82,8 +82,3 @@ Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <
 - 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python, emulator, virtualization, porting projects
 - 📧 How to reach me: my email ```giangvinhloc610@gmail.com``` and  ```raspiduinogit@gmail.com```
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
-
-
-
-
-

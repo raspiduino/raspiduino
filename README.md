@@ -83,7 +83,6 @@ Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <
 - 📧 How to reach me: my email ```giangvinhloc610@gmail.com``` and  ```raspiduinogit@gmail.com```
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
-
-
+# Open source never die!
 
 

@@ -20,19 +20,19 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 2f | <a href='https://github.com/BestRazer'>BestRazer</a>
 | Click 4d | <a href='https://github.com/ThePolishLemon'>ThePolishLemon</a>
 | Click 6a | <a href='https://github.com/raspiduino'>@raspiduino</a>
 | Click 2f | <a href='https://github.com/norimobi'>Norimobi</a>
 | Flag 0b | <a href='https://github.com/Bhood23'>Bhood23</a>
-| Click 7c | <a href='https://github.com/Bhood23'>Bhood23</a>
 
 ## Players
 | Count | Who? |
 | ----- | ---- |
-| 11 | <a href='https://github.com/cgiang'>cgiang</a>|
 | 14 | <a href='https://github.com/Peugeot205GTI'>Peugeot 205 GTI</a>|
 | 15 | <a href='https://github.com/soubikbhuiwk007'>Soubik Bhui</a>|
 | 167 | <a href='https://github.com/raspiduino'>@raspiduino</a>|
+| 1 | <a href='https://github.com/BestRazer'>BestRazer</a>|
 | 1 | <a href='https://github.com/GameursProduction'>Matis André</a>|
 | 1 | <a href='https://github.com/NickJi2019'>NickJi2019</a>|
 | 1 | <a href='https://github.com/norimobi'>Norimobi</a>|
@@ -84,6 +84,7 @@ Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

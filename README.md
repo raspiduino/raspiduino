@@ -21,10 +21,10 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | Action | Who? |
 | ------ | ---- |
 | Click 1d | <a href='https://github.com/Bhood23'>Bhood23</a>
+| Click 1d | <a href='https://github.com/Bhood23'>Bhood23</a>
 | Click 3c | <a href='https://github.com/raspiduino'>giangvinhloc610</a>
 | Click 6h | <a href='https://github.com/Bhood23'>Bhood23</a>
 | Click 2f | <a href='https://github.com/raspiduino'>giangvinhloc610</a>
-| Click 1g | <a href='https://github.com/Bhood23'>Bhood23</a>
 
 ## Players
 | Count | Who? |
@@ -47,7 +47,7 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 3 | <a href='https://github.com/raspiduino'>raspiduino</a>|
 | 4 | <a href='https://github.com/filipefontenele'>filipefontenele</a>|
 | 59 | <a href='https://github.com/danielkasza'>Daniel Kasza</a>|
-| 8 | <a href='https://github.com/Bhood23'>Bhood23</a>|
+| 9 | <a href='https://github.com/Bhood23'>Bhood23</a>|
 | 9 | <a href='https://github.com/cosmoglint'>Ram Prakash</a>|
 
 ## How to play?
@@ -84,6 +84,7 @@ Thanks to <a href="https://github.com/timburgan">timburgan</a> and his awesome <
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

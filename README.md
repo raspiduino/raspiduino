@@ -20,15 +20,16 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 3d | <a href='https://github.com/Bhood23'>Bhood23</a>
 | Click 3d | <a href='https://github.com/sawex33'>sawex33</a>
 | Flag 1e | <a href='https://github.com/sawex33'>sawex33</a>
 | Click 2g | <a href='https://github.com/sawex33'>sawex33</a>
 | Click 3f | <a href='https://github.com/sawex33'>sawex33</a>
-| Click 2f | <a href='https://github.com/sawex33'>sawex33</a>
 
 ## Players
 | Count | Who? |
 | ----- | ---- |
+| 10 | <a href='https://github.com/Bhood23'>Bhood23</a>|
 | 1 | <a href='https://github.com/NickJi2019'>NickJi2019</a>|
 | 1 | <a href='https://github.com/norimobi'>Norimobi</a>|
 | 1 | <a href='https://github.com/ThePolishLemon'>ThePolishLemon</a>|
@@ -46,7 +47,6 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 4 | <a href='https://github.com/filipefontenele'>filipefontenele</a>|
 | 4 | <a href='https://github.com/raspiduino'>giangvinhloc610</a>|
 | 59 | <a href='https://github.com/danielkasza'>Daniel Kasza</a>|
-| 9 | <a href='https://github.com/Bhood23'>Bhood23</a>|
 | 9 | <a href='https://github.com/cosmoglint'>Ram Prakash</a>|
 | 9 | <a href='https://github.com/sawex33'>sawex33</a>|
 
@@ -86,6 +86,7 @@ My website: https://giangvinhloc610.github.io/
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

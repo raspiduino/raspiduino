@@ -21,10 +21,10 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | Action | Who? |
 | ------ | ---- |
 | Click 3f | <a href='https://github.com/gabrielrozn'>gabrielrozn</a>
+| Click 3f | <a href='https://github.com/gabrielrozn'>gabrielrozn</a>
 | Click 1e | <a href='https://github.com/gde-prad'>gde-prad</a>
 | Click 4h | <a href='https://github.com/Rhymakers'>y._.h</a>
 | Click 4g | <a href='https://github.com/Rhymakers'>y._.h</a>
-| Click 4f | <a href='https://github.com/Rhymakers'>y._.h</a>
 
 ## Players
 | Count | Who? |
@@ -34,12 +34,12 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 1 | <a href='https://github.com/XimikBoda'>XimikBoda</a>|
 | 1 | <a href='https://github.com/zhiyisun'>Zhiyi Sun</a>|
 | 1 | <a href='https://github.com/ddrummond00'>ddrummond00</a>|
-| 1 | <a href='https://github.com/gabrielrozn'>gabrielrozn</a>|
 | 1 | <a href='https://github.com/gde-prad'>gde-prad</a>|
 | 1 | <a href='https://github.com/programmeruser2'>programmeruser2</a>|
 | 1 | <a href='https://github.com/steltsag'>steltsag</a>|
 | 1 | <a href='https://github.com/virut1'>virut1</a>|
 | 2 | <a href='https://github.com/linux-admin0001'>LINUX_ADMIN</a>|
+| 2 | <a href='https://github.com/gabrielrozn'>gabrielrozn</a>|
 | 2 | <a href='https://github.com/polo-jpg'>polo-jpg</a>|
 | 3 | <a href='https://github.com/Jacquesjh'>João Pedro Jacques Hoss</a>|
 | 3 | <a href='https://github.com/raspiduino'>raspiduino</a>|
@@ -86,6 +86,7 @@ My website: https://giangvinhloc610.github.io/
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

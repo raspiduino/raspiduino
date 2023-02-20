@@ -20,19 +20,19 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 4c | <a href='https://github.com/nah123-png'>nah123-png</a>
 | Click 4b | <a href='https://github.com/WLFJ'>Lazy Wind Lazy Hurry</a>
 | Click 6b | <a href='https://github.com/raspiduino'>giangvinhloc610</a>
 | Flag 0e | <a href='https://github.com/pivozavrrr'>pivozavrrr</a>
 | Click 3g | <a href='https://github.com/R0ryMercury'>R0ryMercury</a>
-| Click 3h | <a href='https://github.com/R0ryMercury'>R0ryMercury</a>
 
 ## Players
 | Count | Who? |
 | ----- | ---- |
-| 1 | <a href='https://github.com/fingera'>YujunLiu</a>|
 | 1 | <a href='https://github.com/zhiyisun'>Zhiyi Sun</a>|
 | 1 | <a href='https://github.com/ddrummond00'>ddrummond00</a>|
 | 1 | <a href='https://github.com/gde-prad'>gde-prad</a>|
+| 1 | <a href='https://github.com/nah123-png'>nah123-png</a>|
 | 1 | <a href='https://github.com/pivozavrrr'>pivozavrrr</a>|
 | 1 | <a href='https://github.com/programmeruser2'>programmeruser2</a>|
 | 1 | <a href='https://github.com/steltsag'>steltsag</a>|
@@ -86,6 +86,7 @@ My website: https://giangvinhloc610.github.io/
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

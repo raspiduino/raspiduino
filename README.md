@@ -20,11 +20,11 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 3b | <a href='https://github.com/ThePolishLemon'>ThePolishLemon</a>
 | Click 7d | <a href='https://github.com/polo-jpg'>polo-jpg</a>
 | Click 2b | <a href='https://github.com/Peugeot205GTI'>Peugeot 205 GTI</a>
 | Click 1b | <a href='https://github.com/Peugeot205GTI'>Peugeot 205 GTI</a>
 | Flag 0c | <a href='https://github.com/Peugeot205GTI'>Peugeot 205 GTI</a>
-| Click 0b | <a href='https://github.com/Peugeot205GTI'>Peugeot 205 GTI</a>
 
 ## Players
 | Count | Who? |
@@ -86,6 +86,7 @@ My website: https://giangvinhloc610.github.io/
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

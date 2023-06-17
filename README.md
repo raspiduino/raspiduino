@@ -20,11 +20,11 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 0a | <a href='https://github.com/gitIVANgit'>iivaanuss </a>
 | Click 4d | <a href='https://github.com/gitIVANgit'>iivaanuss </a>
 | Click 0a | <a href='https://github.com/gitIVANgit'>iivaanuss </a>
 | Click 0a | <a href='https://github.com/hamzaaitbrik'>Hamza</a>
 | Flag 4g | <a href='https://github.com/kevidryon2'>kevidryon2</a>
-| Flag 1a | <a href='https://github.com/mechabubba'>Steven</a>
 
 ## Players
 | Count | Who? |
@@ -39,8 +39,8 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 2 | <a href='https://github.com/linux-admin0001'>LINUX_ADMIN</a>|
 | 2 | <a href='https://github.com/Tung912k7'>Tung912k7</a>|
 | 2 | <a href='https://github.com/gabrielrozn'>gabrielrozn</a>|
-| 2 | <a href='https://github.com/gitIVANgit'>iivaanuss </a>|
 | 3 | <a href='https://github.com/Jacquesjh'>João Pedro Jacques Hoss</a>|
+| 3 | <a href='https://github.com/gitIVANgit'>iivaanuss </a>|
 | 3 | <a href='https://github.com/polo-jpg'>polo-jpg</a>|
 | 3 | <a href='https://github.com/raspiduino'>raspiduino</a>|
 | 4 | <a href='https://github.com/filipefontenele'>filipefontenele</a>|
@@ -86,6 +86,7 @@ My website: https://giangvinhloc610.github.io/
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

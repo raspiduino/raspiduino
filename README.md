@@ -20,16 +20,16 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 0a | <a href='https://github.com/gitIVANgit'>iivaanuss </a>
 | Click 0a | <a href='https://github.com/hamzaaitbrik'>Hamza</a>
 | Flag 4g | <a href='https://github.com/kevidryon2'>kevidryon2</a>
 | Flag 1a | <a href='https://github.com/mechabubba'>Steven</a>
 | Click 1c | <a href='https://github.com/DeDf'>DeDf</a>
-| Click 0f | <a href='https://github.com/ariellpcuba'>Ariel Lima Pérez</a>
 
 ## Players
 | Count | Who? |
 | ----- | ---- |
-| 1 | <a href='https://github.com/raspiduino'>gvl610</a>|
+| 1 | <a href='https://github.com/gitIVANgit'>iivaanuss </a>|
 | 1 | <a href='https://github.com/kevidryon2'>kevidryon2</a>|
 | 1 | <a href='https://github.com/nah123-png'>nah123-png</a>|
 | 1 | <a href='https://github.com/pivozavrrr'>pivozavrrr</a>|
@@ -86,6 +86,7 @@ My website: https://giangvinhloc610.github.io/
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

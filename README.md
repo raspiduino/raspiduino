@@ -21,10 +21,10 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | Action | Who? |
 | ------ | ---- |
 | Click 5f | <a href='https://github.com/80Stepko08'>St3P40</a>
+| Click 5f | <a href='https://github.com/80Stepko08'>St3P40</a>
 | Click 7a | <a href='https://github.com/80Stepko08'>St3P40</a>
 | Click 5g | <a href='https://github.com/80Stepko08'>St3P40</a>
 | Click 5e | <a href='https://github.com/80Stepko08'>St3P40</a>
-| Click 5d | <a href='https://github.com/80Stepko08'>St3P40</a>
 
 ## Players
 | Count | Who? |
@@ -44,7 +44,7 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 3 | <a href='https://github.com/raspiduino'>raspiduino</a>|
 | 4 | <a href='https://github.com/filipefontenele'>filipefontenele</a>|
 | 4 | <a href='https://github.com/Rhymakers'>y._.h</a>|
-| 5 | <a href='https://github.com/80Stepko08'>St3P40</a>|
+| 6 | <a href='https://github.com/80Stepko08'>St3P40</a>|
 | 7 | <a href='https://github.com/aidgamesa'>aidgamesa</a>|
 | 8 | <a href='https://github.com/raspiduino'>giangvinhloc610</a>|
 | 9 | <a href='https://github.com/cosmoglint'>Ram Prakash</a>|
@@ -86,6 +86,7 @@ My website: https://giangvinhloc610.github.io/
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

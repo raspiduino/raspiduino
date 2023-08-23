@@ -20,11 +20,11 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 7d | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
 | Flag 7d | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
 | Click 7a | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
 | Click 7c | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
 | Click 7a | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
-| Flag 7d | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
 
 ## Players
 | Count | Who? |
@@ -86,6 +86,7 @@ My website: https://giangvinhloc610.github.io/
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

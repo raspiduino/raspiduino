@@ -4,6 +4,8 @@ on:
     issues:
         types: [opened]
 
+concurrency: minesweeper-main
+
 jobs:
     minesweeper:
         runs-on: ubuntu-latest

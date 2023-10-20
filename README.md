@@ -20,19 +20,19 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 6c | <a href='https://github.com/trta911'>trta911</a>
 | Click 4d | <a href='https://github.com/sirgooey'>sirgooey</a>
 | Click 7f | <a href='https://github.com/Aly024'>Aly Azfar</a>
 | Click 5c | <a href='https://github.com/raspiduino'>gvl610</a>
 | Click 2d | <a href='https://github.com/raspiduino'>gvl610</a>
-| Click 1b | <a href='https://github.com/bongtpibaotrum12'>bongtpibaotrum12</a>
 
 ## Players
 | Count | Who? |
 | ----- | ---- |
-| 1 | <a href='https://github.com/programmeruser2'>programmeruser2</a>|
 | 1 | <a href='https://github.com/robje2505'>robje2505</a>|
 | 1 | <a href='https://github.com/sirgooey'>sirgooey</a>|
 | 1 | <a href='https://github.com/steltsag'>steltsag</a>|
+| 1 | <a href='https://github.com/trta911'>trta911</a>|
 | 1 | <a href='https://github.com/virut1'>virut1</a>|
 | 1 | <a href='https://github.com/yeppiidev'>yeppiidev</a>|
 | 2 | <a href='https://github.com/linux-admin0001'>LINUX_ADMIN</a>|
@@ -86,6 +86,7 @@ My website: https://giangvinhloc610.github.io/
 - 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
 
 # Open source never die!
+
 
 
 

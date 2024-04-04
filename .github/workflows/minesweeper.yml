@@ -20,7 +20,7 @@ jobs:
     
         - name: Clone repos
           run: |
-            git clone https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/raspiduino
+            git clone https://github.com/raspiduino/raspiduino
             git clone https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/minesweeper_readme
         
         # Install require libs
@@ -38,7 +38,7 @@ jobs:
             cd raspiduino
             git remote set-url origin https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/raspiduino
             git config --global user.email "raspiduinogit@gmail.com"
-            git config --global user.name "Raspiduino"
+            git config --global user.name "gvl610"
             git add .
             git commit -m "Update the minesweeper game"
             git push -f origin main
@@ -48,7 +48,7 @@ jobs:
             cd minesweeper_readme
             git remote set-url origin https://raspiduino:${{ secrets.MY_ACCESS_TOKEN }}@github.com/raspiduino/minesweeper_readme
             git config --global user.email "raspiduinogit@gmail.com"
-            git config --global user.name "Raspiduino"
+            git config --global user.name "gvl610"
             git add .
             git diff-index --quiet HEAD || git commit -m "Update gamedata"
             git push -f origin main

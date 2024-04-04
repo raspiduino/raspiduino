@@ -83,10 +83,9 @@ Visitor count (it should be 3000 + the below number, since my old count has gone
 # About me
 My website: https://giangvinhloc610.github.io/
 
-- 🎈 My hobby: Arduino, Raspberry Pi, electronics, C, Python, emulator, virtualization, porting projects
+- 🎈 My hobby: FIRST Robotics 🤖, Linux, embedded, electronics, C, Python, emulator, virtualization, porting projects, Nokia
 - 📧 How to reach me: my email ```giangvinhloc610@gmail.com``` and  ```raspiduinogit@gmail.com```
-- 🔭 I'm currently working on some stupid projects, like running Windows on KVM on Android Phones, running Linux on esp8266, build an OS for tiny microcontrollers, running Linux on Nokia 225,..
+- 🔭 I'm currently working on some stupid projects, like running custom FPGA design on roboRIO, object scanner using ESP32, micropython on MRE,...
+- I'm the 2023-2024 (gen 8) (co) head of Programming and Electronics department of [GART](https://github.com/gart6520) (and I also manage that account for now), together with [@KhiemGOM](https://github.com/KhiemGOM)
 
 # Open source never die!
-
-

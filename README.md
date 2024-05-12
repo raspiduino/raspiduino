@@ -20,11 +20,11 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 1b | <a href='https://github.com/predefine'>predefine</a>
 | Click 4d | <a href='https://github.com/predefine'>predefine</a>
 | Click 4b | <a href='https://github.com/predefine'>predefine</a>
 | Click 6e | <a href='https://github.com/predefine'>predefine</a>
 | Click 6b | <a href='https://github.com/predefine'>predefine</a>
-| Click 0c | <a href='https://github.com/predefine'>predefine</a>
 
 ## Players
 | Count | Who? |
@@ -89,6 +89,7 @@ My website: https://giangvinhloc610.github.io/
 - I'm the 2023-2024 (gen 8) (co) head of Programming and Electronics department of [GART](https://github.com/gart6520) (and I also manage that account for now), together with [@KhiemGOM](https://github.com/KhiemGOM)
 
 # Open source never die!
+
 
 
 

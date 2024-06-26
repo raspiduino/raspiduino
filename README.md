@@ -21,10 +21,10 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | Action | Who? |
 | ------ | ---- |
 | Click 0a | <a href='https://github.com/MrcSatrio'>Marcellino Satrio Putro</a>
+| Click 0a | <a href='https://github.com/MrcSatrio'>Marcellino Satrio Putro</a>
 | Click 1f | <a href='https://github.com/adamTop1'>Adam</a>
 | Click 5e | <a href='https://github.com/blocage'>David</a>
 | Click 5f | <a href='https://github.com/raspiduino'>gvl610</a>
-| Click 1c | <a href='https://github.com/tungzuizer'>tungzuizer</a>
 
 ## Players
 | Count | Who? |
@@ -89,6 +89,7 @@ My website: https://giangvinhloc610.github.io/
 - I'm the 2023-2024 (gen 8) (co) head of Programming and Electronics department of [GART](https://github.com/gart6520) (and I also manage that account for now), together with [@KhiemGOM](https://github.com/KhiemGOM)
 
 # Open source never die!
+
 
 
 

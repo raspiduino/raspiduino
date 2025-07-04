@@ -15,16 +15,16 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | 6 |<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A6a&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/3.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A6a&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A6b&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/4.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A6b&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A6c&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/3.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A6c&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A6d&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/2.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A6d&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A6e&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A6e&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A6f&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A6f&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A6g&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A6g&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A6h&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A6h&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|
 | 7 |<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A7a&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/flagged.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A7a&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A7b&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/flagged.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A7b&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A7c&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/1.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A7c&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A7d&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A7d&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A7e&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A7e&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A7f&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A7f&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A7g&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A7g&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|<a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aclick%3A7h&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>![](https://raw.githubusercontent.com/raspiduino/raspiduino/main/images/0.png)</a><a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aflag%3A7h&body=Just+click+%27Submit+new+issue%27.+Thanks+for+playing+my+game!'>🚩</a>|
 
-
+<br>You lost! Wanna play again? Click <a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aplayagain&body=Just+push+%27Submit+new+issue%27+to+play+again.+You+don%27t+need+to+do+anything+else.'>here</a>
 
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 1e | <a href='https://github.com/PackmanDude'>Mr. Packman</a>
 | Flag 0f | <a href='https://github.com/PackmanDude'>Mr. Packman</a>
 | Click 0g | <a href='https://github.com/PackmanDude'>Mr. Packman</a>
 | Click 0h | <a href='https://github.com/PackmanDude'>Mr. Packman</a>
 | Click 1h | <a href='https://github.com/PackmanDude'>Mr. Packman</a>
-| Flag 2h | <a href='https://github.com/PackmanDude'>Mr. Packman</a>
 
 ## Players
 | Count | Who? |
@@ -89,6 +89,70 @@ My website: https://giangvinhloc610.github.io/
 - I was the 2023-2024 (gen 8) (co) head of Programming and Electronics department of [GART](https://github.com/gart6520), together with [@KhiemGOM](https://github.com/KhiemGOM)
 
 # Open source never die!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

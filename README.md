@@ -20,11 +20,11 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 3d | <a href='https://github.com/Mordsdima'>Dmitro</a>
 | Flag 3d | <a href='https://github.com/Mordsdima'>Dmitro</a>
 | Click 0e | <a href='https://github.com/PackmanDude'>Mr. Packman</a>
 | Click 1e | <a href='https://github.com/PackmanDude'>Mr. Packman</a>
 | Flag 0f | <a href='https://github.com/PackmanDude'>Mr. Packman</a>
-| Click 0g | <a href='https://github.com/PackmanDude'>Mr. Packman</a>
 
 ## Players
 | Count | Who? |
@@ -89,6 +89,7 @@ My website: https://giangvinhloc610.github.io/
 - I was the 2023-2024 (gen 8) (co) head of Programming and Electronics department of [GART](https://github.com/gart6520), together with [@KhiemGOM](https://github.com/KhiemGOM)
 
 # Open source never die!
+
 
 
 

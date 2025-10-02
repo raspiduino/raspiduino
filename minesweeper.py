@@ -134,7 +134,7 @@ def checkifwon(gametable, gameactiontable):
         readmefile.close()
 
         readme = readme.split('\n')
-        readme[17] == "<br>You win! Wanted to play again? Click <a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aplayagain&body=Just+push+%27Submit+new+issue%27+to+play+again.+You+don%27t+need+to+do+anything+else.'>here</a>"
+        readme[17] = "<br>You win! Wanted to play again? Click <a href='https://github.com/raspiduino/raspiduino/issues/new?title=minesweeper%3Aplayagain&body=Just+push+%27Submit+new+issue%27+to+play+again.+You+don%27t+need+to+do+anything+else.'>here</a>"
 
         readmefile = open("raspiduino/README.md", "w")
         readmefile.write('\n'.join(readme))

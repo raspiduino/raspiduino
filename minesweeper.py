@@ -171,11 +171,10 @@ def leaderboard():
     
     #print(leaderboardlist)
 
-    if len(leaderboardlist) > 20:
-        leaderboardlist.pop(0)
+    visibleleaderboardlist = leaderboardlist[-20:]
 
     i = 31
-    for leaduser in leaderboardlist:
+    for leaduser in visibleleaderboardlist:
         leadusercontent = leaduser.split('|')
         readme[i] = "| " + leadusercontent[0] + " | <a href='" + leadusercontent[2] + "'>" + leadusercontent[1] + "</a>|"
         i += 1

@@ -20,11 +20,11 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 ## Last play
 | Action | Who? |
 | ------ | ---- |
+| Click 4d | <a href='https://github.com/khooinguyeen'>Khoi Nguyen Mai</a>
 | Click 4e | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
 | Click 4d | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
 | Click 3e | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
 | Click 4e | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
-| Click 4c | <a href='https://github.com/trungnt2910'>Trung Nguyen</a>
 
 ## Players
 | Count | Who? |
@@ -89,6 +89,7 @@ My website: https://giangvinhloc610.github.io/
 - I was the 2023-2024 (gen 8) (co) head of Programming and Electronics department of [GART](https://github.com/gart6520), together with [@KhiemGOM](https://github.com/KhiemGOM)
 
 # Open source never die!
+
 
 
 

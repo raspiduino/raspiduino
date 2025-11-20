@@ -21,17 +21,17 @@ If you came here, why don't you play some minesweeper? The game is open for ever
 | Action | Who? |
 | ------ | ---- |
 | Click 0d | <a href='https://github.com/HoangVu123456'>HoangVu123456</a>
+| Click 0d | <a href='https://github.com/HoangVu123456'>HoangVu123456</a>
 | Click 2d | <a href='https://github.com/BenniNord'>BenniNord</a>
 | Click 1d | <a href='https://github.com/kucer0043'>Metrone</a>
 | Flag 3d | <a href='https://github.com/Pandahoccode'>Phuc Anh Dang</a>
-| Click 6g | <a href='https://github.com/khooinguyeen'>Khoi Nguyen Mai</a>
 
 ## Players
 | Count | Who? |
 | ----- | ---- |
-| 1 | <a href='https://github.com/xerix123456'>xerix123456</a>|
 | 1 | <a href='https://github.com/yeppiidev'>yeppiidev</a>|
 | 1 | <a href='https://github.com/SuperErnD'>Дмитрий Комунистов</a>|
+| 2 | <a href='https://github.com/HoangVu123456'>HoangVu123456</a>|
 | 2 | <a href='https://github.com/Tung912k7'>Tung912k7</a>|
 | 2 | <a href='https://github.com/1x6'>a</a>|
 | 2 | <a href='https://github.com/gabrielrozn'>gabrielrozn</a>|
@@ -89,6 +89,7 @@ My website: https://giangvinhloc610.github.io/
 - I was the 2023-2024 (gen 8) (co) head of Programming and Electronics department of [GART](https://github.com/gart6520), together with [@KhiemGOM](https://github.com/KhiemGOM)
 
 # Open source never die!
+
 
 
 
